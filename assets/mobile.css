@@ -1,0 +1,596 @@
+@media screen and (min-width:1951px){
+.banner-img-content-about{left:15px;top:123px}
+.services-section .services-content-page{padding:30px 32px}
+}
+@media screen and (max-width:1950px){
+.about-us-banner-section .home-banner-text{padding:109px 118px 130px 392px}
+.banner-container-box .blogs-section-padding{padding:109px 89px 97px 380px}
+.infinite-scroll-banner .home-banner-text{padding:107px 90px 130px 363px}
+.column-sidebar .home-banner-text{padding-right:38px 130px 363px}
+.about-teams-section .teams-section2 .whyus-icon{position:absolute;right:-34%;top:16px}
+}
+@media screen and (max-width:1850px){
+.about-us-banner-section .home-banner-text{padding:78px 78px 88px 390px}
+.banner-container-box .blogs-section-padding{padding:87px 118px 55px 320px}
+.social-icons-about .linkedin-top{top:213px}
+.social-icons-about .twitter-top{top:149px}
+.social-icons-about .facebook-top{top:85px;position:absolute}
+.infinite-scroll-banner .home-banner-text{padding:102px 90px 115px 305px}
+.about-teams-section .teams-section2 .whyus-icon{position:absolute;right:-30%;top:16px;display:none}
+}
+@media screen and (max-width:1750px){
+.main-header{padding:28px 230px 0 230px}
+.about-us-banner-section .home-banner-text{padding:76px 118px 60px 302px}
+.banner-container-box .blogs-section-padding{padding:41px 20px 30px 100px}
+.infinite-scroll-banner .home-banner-text{padding:90px 90px 100px 260px}
+.about-teams-section .teams-section2 .whyus-icon{position:absolute;right:-25%;top:16px;width:230px}
+}
+@media screen and (max-width:1650px){
+.main-header{padding:28px 150px 0 150px}
+.about-us-banner-section .home-banner-text{padding:75px 73px 35px 289px}
+.banner-container-box .blogs-section-padding{padding:56px 20px 93px 226px}
+.infinite-scroll-banner .home-banner-text{padding:71px 69px 35px 222px}
+.about-teams-section .teams-section2 .whyus-icon{position:absolute;right:-24%;top:16px;width:169px}
+}
+@media screen and (max-width:1550px){
+.main-header{padding:28px 120px 0 120px}
+.about-us-banner-section .home-banner-text{padding:40px 56px 35px 215px}
+.banner-container-box .blogs-section-padding{padding:8px 0 30px 55px}
+.social-icons-about .linkedin-top{top:173px}
+.social-icons-about .twitter-top{top:111px}
+.social-icons-about .facebook-top{top:48px;position:absolute}
+.infinite-scroll-banner .home-banner-text{padding:37px 69px 35px 201px}
+}
+@media screen and (max-width:1440px){
+h1{font-size:50px;line-height:56px}
+.home-banner-text{padding:62px 13px 60px 270px}
+.banner-container-box .blogs-section-padding{padding:32px 0 39px 77px}
+.main-header{padding:17px 0 0 0}
+.banner-btn a{line-height:18px}
+.home-banner-text{padding:38px 40px 21px 40px}
+.banner-img-content{padding:17px 0 0 15px}
+.social-icons-inner{left:55px}
+.social-icons{top:-206px;padding-left:70px}
+.teams-social-icons{padding-left:0}
+.cards-section{padding:100px 40px 45px}
+.icons-section{padding:50px 60px 50px 60px}
+.about-us-section-start{padding:40px 0}
+.teams-page{background-image:linear-gradient(150deg,var(--e-global-color-dark-marron) 2%,var(--e-global-color-dark-icons-background) 14%)}
+.about-us-section-start p{padding:0 303px;margin-bottom:40px}
+.main-header .navbar-brand{margin:0}
+.cyber-security-section{padding:122px 0 0}
+.accordian-section{padding:88px 0 20px}
+.form-section-starts{padding:80px 0 100px}
+.accordian-section{padding:100px 0 70px}
+.services-section .services-content h4{font-size:20px;line-height:26px}
+.services-section .services-content-page{padding:30px 20px}
+.about-us-section-start .security-services-p{font-size:14px;line-height:24px}
+.about-teams-section .about-team-title{margin-bottom:12px}
+.about-us-section-start p{padding:0 325px}
+.form-section-starts .form-section-p{padding:0 161px;margin-bottom:24px}
+.cyber-security-section .cyber-security-provider-img{width:450px}
+.cyber-security-section .cyber-content-img-right figure img{width:450px}
+.home-banner-section .banner-img-content .banner-img-width{width:460px;margin-left:108px}
+.home-banner-section{padding-top:93px}
+.main-header .navbar-brand{margin-left:0;padding-bottom:0}
+.navbar-nav li.active>a:before{top:-21px}
+.banner-container-box .social-icons{padding:50px 0 0 8px}
+.banner-container-box .social-icons ul li .social-networks{margin-right:-6px}
+.map-section iframe{width:100%}
+}
+@media screen and (max-width:1350px){
+.mission-section .mission-section-left-content:before{width:600px;height:710px}
+.about-us-banner-section .home-banner-text{padding:34px 31px 50px 179px}
+.clients-section .about2-left-img{display:none}
+.about-us-section-start .whyus-icon{display:none}
+.about-us-section-2 .about2-left-img{display:none}
+.footer-section .footer-icon{display:none}
+.Services-Security-Option-services-page .whyus-icon{display:none}
+.clients-testimonial-page .about-right-icon figure{display:none}
+}
+@media screen and (max-width:1250px){
+.about-us-banner-section .home-banner-text{padding:34px 35px 60px 161px}
+}
+@media screen and (max-width:1199px){
+h1{font-size:55px;letter-spacing:0;line-height:65px;word-spacing:0}
+.navbar-nav li{display:inline-block;margin:0 11px}
+.navbar-nav a{color:#fff;padding-top:12px}
+.nav-link{margin-left:0;line-height:37px}
+.inner-arrow-menu-btn{right:54px;top:4px}
+.inner-arrow-menu-btn{font-size:14px;width:38px;height:38px;line-height:40px!important}
+.home-banner-text{padding:0 0 34px 12px}
+.social-icons{top:-211px;left:-21px}
+.banner-img-content{padding:29px 0 0 0}
+.navbar-expand-lg .navbar-nav .nav-link{padding-left:0}
+.navbar-nav .active>a{color:var(--e-global-color-white)!important}
+.banner-paragraph{font-size:18px;line-height:28px}
+.artificial-text{font-size:14px}
+.banner-btn{height:55px;padding:0 58px 0 0;position:relative;display:inline-block}
+.inner-arrow-style{font-size:19px;width:38px;right:9px;top:9px;height:38px;line-height:38px!important}
+.banner-paragraph{margin-bottom:33px}
+.btn-talk a{line-height:16px;font-size:16px;padding:15px 24px 15px 24px!important}
+.about-us-section-start p{padding:0 210px}
+.icons-section{padding:80px 0 100px 0}
+.icons-section .comapanies-icon-margin{margin-left:0}
+.icons-section .comapanies-icon-margin-3{margin-left:0}
+.about-us-section-start .whyus-icon{position:absolute;right:0;top:-65px;display:none}
+.cards-section{padding:84px 40px 0}
+.about-us-section-start{padding:0 0 40px}
+.aboutus-page{padding:90px 0 90px!important}
+.cyber-security-section{padding:100px 0 97px}
+.cyber-boxes-section{padding-bottom:0}
+.cyber-security-section .cyber-content-img-right{margin-top:-63px;padding-left:0}
+.blogs-section-starts{padding:90px 0 0}
+.pricing-form-section{padding-top:60px}
+.footer-section{padding-top:90px}
+.services-clients-section{padding:0 0 20px}
+.clients-section p{padding:0 175px}
+.testimonial-section{padding:100px 0}
+.testimonial-section-text{font-size:18px;line-height:28px;margin-bottom:10px}
+.accordian-section{padding:60px 0 80px}
+.accordian-section .accordian-inner .accordion-card .btn{font-size:18px;line-height:22px}
+.smart-technology .box1{padding:20px 6px 15px}
+.smart-technology .box-margin{margin-bottom:14px}
+.smart-technology{padding:58px 0 100px}
+.banner-img-content-about{top:13px!important}
+.icons-style{font-size:14px;width:40px;height:40px;line-height:40px!important}
+.team-section .twiter-left{left:144px}
+.team-section .facebook-left{left:96px}
+.team-section .insta-left{left:192px}
+.team-section{padding:100px 0}
+.services-title{margin-bottom:36px}
+.about-teams-section .teams-social-icons ul{padding-left:0}
+.contact-us-section-page .contact-content-our-team{padding:30px 26px 30px}
+.padding-bottom{padding-bottom:100px!important}
+.padding-top{padding-top:100px!important}
+.blog-content{padding:20px 16px}
+.blog-content p{font-size:16px;line-height:24px;margin-bottom:0}
+.blog-content h4{font-size:18px}
+.banner-container-box .blogs-section-padding{padding:17px 0 33px 61px}
+h3{font-size:34px;line-height:38px}
+.cyber-boxes-section .about-us-content{padding:42px 17px 26px}
+h4{font-size:22px;line-height:24px}
+.about-us-section-2 .about-margin-bottom{margin-bottom:20px}
+.about-us-section-2 .about-margin-bottom{margin-bottom:20px}
+.about-us-section-start .about-us-content{padding:30px 12px 30px 17px}
+.accordian-text h3{margin-bottom:34px;letter-spacing:0}
+.accordian-section .accordian-inner .faq-btn-text{font-size:18px;line-height:26px}
+.pricing-plan-section .pricing-content{font-size:16px;line-height:29px}
+.pricing-plan-section .pricing-free-text{font-size:16px;line-height:18px}
+.about-teams-section{padding:65px 0 0}
+.teams-page{padding:70px 0 0}
+.about-teams-section h3{margin-bottom:18px}
+.about-teams-section .teams-section-p{padding:0 16px;line-height:26px;margin-bottom:10px}
+.blogs-section-starts .blogs-section{padding:42px 24px 37px 24px}
+.blogs-section figure img{width:100%}
+.blogs-section .blogs-h5{font-size:18px;line-height:24px;padding:37px 0 30px}
+.cyber-security-section .cyber-content-img-right{margin-top:0}
+.faq-content-img figure img{width:450px}
+.home-banner-section .banner-img-content .banner-img-width{width:410px;margin-left:0}
+.about-banner-text .banner-paragraph{padding:0 168px}
+.about-us-section-page{padding:70px 111px 56px 50px}
+.about-us-section-page .about-section-img figure img{width:490px}
+.map-section iframe{width:100%}
+.map-section{padding:100px 0 0}
+.contact-us-section{padding:70px 44px 56px 44px}
+.faq-page{padding-bottom:0}
+.clients-testimonial-page .clients-row2{padding:20px 0}
+.cards-section .outer-padding-left{padding-right:36px;margin-left:-32px}
+.cards-section .outer-card2{padding-left:0}
+.banner-container-box-comming-soon{padding:173px 0 70px}
+.banner-container-box-comming-soon h1{font-size:40px;line-height:48px;padding:0 160px}
+.banner-container-box-comming-soon .comming-soon-logo{margin-bottom:50px}
+.blog-posts{padding:100px 0}
+.form-section-starts .btn-form-section{right:7px;top:7px;padding:15px 33px 15px 32px}
+.navbar-nav li:first-child{margin-left:92px}
+.clients-section .about2-left-img{display:none}
+}
+@media only screen and (max-width:991px){
+.navbar-collapse{position:absolute;right:0;width:27%;top:50px;z-index:16;padding:0;background:var(--e-global-color-dark-marron);border-radius:0;color:var(--e-global-color-white-banner-text)}
+.navbar-collapse a{color:var(--e-global-color-secondary)!important;line-height:16px;padding:10px 20px!important}
+.navbar-nav .active>a{background:var(--e-global-color-red-active)!important;color:var(--e-global-color-white)}
+.contact-us-margin{margin-right:0}
+.btn-talk .active>a{background:var(--e-global-color-red-active)!important;border-radius:0}
+.navbar-collapse a:hover{color:var(--e-global-color-white)!important;background:var(--e-global-color-red)!important}
+.navbar-nav li.active{color:var(--e-global-color-red-active)!important}
+.navbar-nav li.active>a:before{display:none}
+.btn-talk a{color:transparent;height:auto;background:0 0;font-weight:400;display:block;text-align:left}
+.navbar-toggler{margin-left:auto;border:none!important;padding:0;width:30px;height:22px}
+.navbar-light .navbar-toggler-icon{background:#fff;height:2px;margin:7px 0 0 0;width:100%;float:right}
+.navbar-toggler.collapsed span:nth-child(1){transform:rotate(0)}
+.navbar-toggler span.navbar-toggler-icon:first-child{margin-top:0}
+.navbar-toggler span:nth-child(1){transform:rotate(45deg);transform-origin:0 80%}
+.navbar-toggler span.navbar-toggler-icon{transition:all .15s}
+.navbar-toggler.collapsed span:nth-child(2){opacity:1}
+.navbar-toggler span:nth-child(2){opacity:0}
+.navbar-toggler.collapsed span:nth-child(3){transform:rotate(0)}
+.navbar-toggler span:nth-child(3){transform:rotate(-45deg);transform-origin:15% 100%}
+.home-banner-section{padding-top:33px}
+.about-banner-text{margin-bottom:87px;padding-top:40px}
+.collapse:not(.show){display:none}
+.navbar-collapse ul{align-items:unset;text-align:unset;margin-left:0}
+button:focus{outline:0}
+.dropdown-content-redlight ul li a{color:var(--e-global-color-white-banner-text);line-height:17px;padding:10px 29px!important;width:185px}
+.dropdown-content-redlight ul li a{font-size:14px;color:var(--e-global-color-white)!important}
+.navbar li{margin:0!important;padding:0 0 5px}
+.btn-talk{padding:0}
+.inner-arrow-menu-btn{right:-38px;top:0}
+p{font-size:16px;line-height:24px}
+h1{font-size:50px;line-height:58px;letter-spacing:0}
+.about-banner-text .about-h1{font-size:46px;line-height:50px}
+.banner-paragraph{margin-bottom:28px}
+.home-banner-text h1{margin-bottom:14px}
+.home-banner-text{padding:43px 12px 36px 9px}
+.icons-section{padding:90px 0 90px 0}
+.logo-box figure img{width:96px}
+.icons-section h3{margin-bottom:40px}
+.about-us-section-start{padding:0 0 0}
+.about-us-section-start p{padding:0 80px;margin-bottom:33px}
+.about-teams-section .about-team-title{padding:0 33px}
+.banner-btn .inner-arrow-style{top:8px}
+.drop-down-content li a{padding:0 22px 4px 21px!important;font-size:16px;line-height:16px;font-weight:400}
+.drop-down-pages li a{padding:6px 32px 7px!important;font-size:15px;line-height:15px}
+.drop-down-pages li a:hover{color:var(--e-global-color-white)!important;background-image:linear-gradient(-72deg,var(--e-global-background-services-box) 0,var(--e-global-background-services-box-color2) 100%)}
+.navbar-collapse a:hover{margin-right:0}
+.nav-link{margin-left:0}
+h3{font-size:30px;line-height:38px}
+.about-us-section-start .about-us-content{padding:32px 22px 19px}
+.about-us-section-start .security-services-p{font-size:14px;line-height:22px;margin-bottom:10px}
+.cards-section .card-heading-p{padding:25px 7px 0 0}
+.cards-section .outer-card1{margin-left:-4px}
+.cards-section .cards-outer::after{right:3px}
+.cards-section .outer-padding-left{padding-right:0}
+.banner-btn a{padding:17px 30px 17px 29px}
+.cards-section .outer-card2{padding-left:28px}
+.discover-btn-banner .play-button{padding:16px 25px}
+.footer-section{padding-top:0}
+.about-teams-section .about-team{border-radius:14px;text-align:center;background:0 0}
+.about-teams-section .teams-section-p{padding:0 0;line-height:18px;margin-bottom:18px;font-size:14px}
+.about-us-section-start .about-us-content h3{margin-bottom:10px}
+.about-us-section{padding:70px 0}
+.services-section{padding:70px 0}
+.services-title{padding:0 54px;margin-bottom:36px}
+h2{font-size:32px;line-height:37px}
+.services-inner{width:110px;height:110px}
+.services-content{height:auto;width:auto;padding:33px 20px}
+.services-h4{padding:20px 0 8px}
+.services-cards-text{font-size:17px;line-height:24px;font-weight:400;margin-bottom:0}
+.owl-theme .owl-dots .owl-dot{display:none!important}
+.services-title{padding:0 40px;margin-bottom:28px}
+h2{font-size:32px;line-height:36px}
+.services-content{padding:21px 17px}
+h4{font-size:20px;line-height:24px}
+.icons-section h4{margin-bottom:34px}
+.about-us-section-start .about-us-content h4{margin-bottom:10px}
+.services-cards-text{font-size:16px;line-height:24px}
+.services-icons{top:22px}
+.services-inner{width:100px;height:100px}
+a{font-size:16px;line-height:21px}
+.services-cards-text{margin-bottom:10px}
+.cyber-security-section .cyber-content-img-right figure img{width:343px}
+.cyber-security-section .cyber-content-img{margin-top:0}
+.cyber-security-section .cyber-security-provider-img{width:343px}
+.accordian-section .accordian-inner .accordion-card .btn{padding:12px 50px 12px 25px}
+.testimonial-section-text{font-size:16px;line-height:24px}
+.cyber-boxes-section .cyber-counter{font-size:16px;line-height:22px;top:-5px}
+.contact-us-section h2{padding:0 125px;margin-bottom:24px}
+.contact-us-p{padding:0 100px;margin-bottom:24px}
+.team-section .twiter-left{left:102px}
+.team-section .insta-left{left:146px}
+.team-section .facebook-left{left:58px}
+.services-content-our-team{padding:38px 20px 60px}
+.team-section .teams-h4{padding:2px 0}
+.team-section{padding:70px 0}
+.icons-section .icons-mb{margin-bottom:20px!important}
+.contact-us-section-page .phonr-numbers{margin:11px 10px}
+.contact-us-section-page .contact-content-our-team{padding:20px 6px 28px}
+.contact-us-section-page .data-inner-contact{width:107px;height:107px}
+.contact-us-section-page .contact-us-content{padding-top:17px}
+.map-section iframe{width:100%}
+.form-section .form-title{margin-bottom:20px!important;padding-right:0}
+.form-section .inner-arrow-style-contact{font-size:16px;width:40px;height:40px;margin:0 3px 0;line-height:40px!important}
+.form-section .about-banner-btn{width:200px}
+.form-section .contact-banner-btn a{padding:21px 30px 22px}
+.padding-top{padding-top:70px!important}
+.padding-bottom{padding-bottom:70px!important}
+.blog-content{padding:17px 10px}
+.service-box-con h4{font-size:18px}
+.blog-content p{font-size:15px;line-height:24px}
+.blog-auteher-title{margin-bottom:4px}
+.banner-container-box .blogs-section-padding{padding:10px 0 17px 34px}
+.about-us-banner-section .banner-paragraph{margin-bottom:24px}
+.form-section-starts .form-section-p{padding:0 38px;margin-bottom:20px}
+.form-section h3{margin-bottom:14px}
+.pricing-form-section h3{padding:0 70px}
+.pricing-form-section{padding-top:0!important}
+.form-section-starts .form-section-p{font-size:18px;line-height:25px}
+.form-section-starts .form-section{padding:57px 20px 57px 20px}
+.form-section-starts .input-field-form{width:90%!important}
+.form-button button{font-size:16px}
+.form-section-starts .input-form-input{padding:0 20px 0 28px;font-size:18px;height:70px;font-size:16px;line-height:24px}
+.blogs-section-starts .blogs-section{padding:42px 15px 37px 15px}
+.pricing-plan-section .pricing-content{font-size:14px;line-height:24px;margin-bottom:30px}
+.about-us-section-start .about-us-content{padding:30px 16px 35px 15px}
+.about-us-section-2 .about-us-content{padding:30px 19px 25px 20px}
+.faq-content-img figure img{width:343px}
+.pricing-plan-section .order-now-btn a{font-size:16px;line-height:18px}
+.about-us-section-start .about-us-content .icons-rounded-box{padding:10px 14px;margin-bottom:20px}
+.accordian-section .accordian-inner .faq-btn-text{font-size:16px;line-height:24px}
+.home-banner-section .banner-img-content .banner-img-width{margin-left:0}
+.banner-btn{padding:0 58px 0 0}
+.banner-container-box .social-icons{padding:0}
+.cards-section{padding:70px 0 0}
+.cyber-security-section{padding:70px 0}
+.faq-page{padding-bottom:0}
+.accordian-section .accordion-card .accordian-text-color{margin-bottom:8px}
+.accordian-section .accordion-card .card-body{padding:0 20px 20px 20px}
+.blogs-section .blogs-h5{font-size:18px;line-height:24px;padding:24px 10px 12px}
+.footer-section .footer-icon{position:absolute;left:-8px;top:-320px}
+.footer-section .footer-outer-margin{padding-bottom:46px}
+.form-section-starts{padding:86px 0}
+.footer-section .footer-content1 figure{margin-bottom:10px}
+.footer-section .footer-content1{padding-top:0}
+.footer-section .footer-margin-left{margin-bottom:10px}
+.footer-section .footer-get-heading{margin-bottom:0}
+.about-banner-text .banner-paragraph{padding:0 74px}
+.about-us-section-page .about-section-img figure img{width:392px}
+.about-us-section-page{padding:50px 98px 28px 28px}
+.about-us-section-page .discover-btn-banner .play-button{padding:15px 46px;margin-left:8px;margin-left:-1px}
+.about-us-section-page .banner-btn-about a{margin-bottom:20px}
+.aboutus-page{padding:90px 0 0!important}
+.clients-section{padding:70px 0 70px}
+.clients-section p{padding:0 82px}
+.clients-section .client-section-main-p{margin-bottom:40px}
+.clients-section h3{margin-bottom:20px}
+.clients-section .clients-outer-box{padding:26px 20px 8px}
+.clients-section .clients-outer-box .icon-figure-quotes{right:22px}
+.clients-section .clients-right-content{margin-left:0;padding-top:42px;margin-bottom:30px}
+.clients-section .clients-outer-box .clients-outer-box-figure{margin-right:15px}
+.clients-section .clients-right-content .spencer-span{font-size:20px;line-height:20px;margin-bottom:5px}
+.clients-section .clients-outer-box .clients-sectionp2{margin-bottom:12px}
+.about-teams-section{padding:90px 0 90px!important}
+.map-section{padding:90px 0 90px}
+.contact-us-section{padding:50px 20px 28px 20px}
+.contact-us-section .contact-content .contact-parah{font-size:16px;line-height:22px}
+.services-clients-section{padding:0 0 20px}
+.teams-section2{padding-top:28px}
+.form-testimonial-page{padding:70px 0!important}
+.banner-container-box-comming-soon{padding:100px 0 70px}
+.banner-container-box-comming-soon h1{font-size:38px;line-height:44px;padding:0 55px}
+.banner-container-box-comming-soon p{padding:0 70px;margin-bottom:60px}
+.banner-container-box-comming-soon .input-field-form{width:55%!important}
+.cyber-security-section .cyber-content .security-services-p{font-size:16px;line-height:24px;margin-bottom:12px}
+.cyber-security-section .cyber-content .cyber-p-margin-bottom{margin-bottom:34px!important}
+.cyber-security-section .cyber-content .cyber-contact-btn a{font-size:16px;line-height:20px}
+.accordian-section .accordian-text h3{margin-bottom:34px;padding:0 10px}
+.accordian-section .accordion-card{margin-left:0}
+.blog-posts{padding:60px 0}
+}
+@media screen and (max-width:767px){
+h1{font-size:30px;line-height:35px;padding:0}
+.about-banner-text .about-h1{font-size:30px;line-height:35px}
+.banner-btn{height:52px;padding:0 8px 0 18px}
+.home-banner-text{padding:30px 0 10px 0}
+.banner-btn{margin:0 auto;padding:0 42px 0 103px}
+.banner-btn a{margin-left:-46px}
+.inner-arrow-style{font-size:17px;right:8px}
+.dropdown-content-redlight ul li a{line-height:17px;padding:6px 29px!important;width:163px}
+.banner-img-content{padding:0 10px 0 10px}
+.main-header{padding:20px 0 0 0}
+.services-section{padding:60px 0}
+h6{font-size:14px;line-height:20px}
+.banner-img-width{width:62%}
+.banner-img-content{left:0;text-align:center;top:25px}
+.cards-section .cards-outer::after{display:none}
+.cards-section .card-heading-p{padding:24px 104px 0 116px;margin-bottom:10px}
+.outer-padding-left-last{padding-right:0;margin-left:0}
+.cards-section .outer-padding-left{padding-right:0;margin-left:0}
+.cards-section .outer-card2{padding-left:0}
+.cards-section .date-p{margin-bottom:0}
+.icons-section{padding:60px 19px 60px 19px}
+.about-us-section-start .about-us-content{padding:28px 60px 40px;margin-bottom:20px;text-align:center}
+.blogs-section-starts .blogs-section{padding:20px;margin-bottom:20px}
+.form-section-starts .form-section-p{padding:0 13px;margin-bottom:20px}
+.about-us-section-start .about-us-content h4{margin-bottom:12px}
+.banner-paragraph{padding:0 63px}
+h2{font-size:28px;line-height:32px;padding-left:0!important;padding-right:0!important}
+.icons-section h4{margin-bottom:30px}
+.about-us-section-start p{padding:0 40px;margin-bottom:28px}
+.cyber-boxes-section .cyber-boxes-text{margin-bottom:0;font-size:18px;line-height:18px}
+.about-us-section-start .about-us-content{padding:28px 60px 28px}
+.pricing-plan-section .about-us-content{padding:28px 60px 37px}
+.icons-section .icons-mb{margin-bottom:0!important}
+.accordian-section{padding:11px 0 60px}
+.accordian-section .accordian-inner .accordion-card .btn{padding:12px 65px 11px 25px}
+.accordian-section .accordian-inner .accordion-card .btn{line-height:43px}
+.contact-us-section .banner-btn-contact-us a{padding:22px 66px 24px 33px}
+.contact-us-section .contact-us-btn a{font-size:16px;line-height:16px}
+.contact-us-section h2{padding:0 63px!important}
+.contact-us-p{padding:0 56px;margin-bottom:30px}
+.cyber-security-section .cyber-content-img{margin-bottom:60px;text-align:center}
+.cyber-security-section .cyber-security-provider-img{width:393px}
+.home-banner-section .banner-img-content .banner-img-width{width:360px;margin-left:0}
+.banner-img-content figure{margin-left:0}
+h3{font-size:24px;line-height:30px}
+.cyber-security-section .cyber-content{text-align:center;margin-bottom:60px}
+.accordian-section .cyber-content{text-align:center;margin-bottom:20px}
+.cyber-boxes-section{padding-bottom:0}
+.discover-btn-banner .play-button{padding:13px 22px}
+.banner-container-box .social-icons{padding:31px 0 0 0;text-align:center;display:flex;justify-content:center}
+.faq-content-img figure{text-align:center}
+.faq-content-img figure img{width:390px;text-align:center;margin-bottom:30px}
+.accordian-section .accordian-text h3{padding:0 50px}
+.cyber-security-section .cyber-content .security-services-p{font-size:16px;line-height:26px;margin-bottom:13px}
+.cyber-security-section .cyber-content .cyber-p-margin-bottom{margin-bottom:43px}
+.cyber-security-section .cyber-content .cyber-contact-btn a{font-size:16px;line-height:24px}
+.cyber-contact-btn{text-align:center}
+.cyber-security-section{padding:70px 37px 70px}
+.accordian-section{padding:70px 37px 70px}
+.pricing-accordian{padding:0 37px 70px}
+.banner-btn a{padding:15px 28px 15px 30px}
+.cyber-security-section .cyber-content-img-right figure img{width:390px}
+.form-section-starts .form-section-p{font-size:16px;line-height:24px}
+.form-section-starts .input-group>.form-control:not(:last-child){font-size:16px;line-height:24px}
+.form-section-starts .btn-form-section{font-size:14px;line-height:24px}
+.footer-section .footer-get-heading{margin-bottom:13px;padding-left:10px}
+.footer-section .footer-outer-margin{padding-bottom:70px}
+.footer-section{padding-top:70px}
+.form-section-starts{padding:70px 0 0}
+.footer-section .footer-bar-content p{font-size:14px;line-height:20px}
+.form-section-starts .form-section{padding:60px 34px 60px 32px}
+.about-banner-text .banner-paragraph{padding:0 10px;margin-bottom:20px}
+.about-banner-text .about-h1{margin-bottom:15px}
+.about-banner-text{margin-bottom:40px;padding-top:40px}
+.about-us-section-page{padding:50px 30px 28px 30px}
+.about-us-section-page p{font-size:18px;line-height:24px;padding:0;text-align:center}
+.about-us-section-page p{padding:0 24px 0 24px;margin-bottom:20px}
+.contact-us-section p{padding:0 24px 0 24px;margin-bottom:30px}
+.about-us-section-page .about-us-list{margin-bottom:31px;padding-left:100px}
+.contact-us-section .about-us-list{margin-bottom:31px;padding-left:28px}
+.about-us-section-page h3{margin-bottom:20px;text-align:center}
+.about-us-section-page .discover-btn-banner .play-button{margin-left:10px}
+.about-us-section-page .about-order-services{margin-bottom:0;text-align:center}
+.about-us-section-page .about-section-img{margin-left:0;margin-top:0;text-align:center}
+.aboutus-page{padding:60px 0 0!important}
+.about-us-section-start{padding:70px 0 0}
+.cyber-boxes-section{padding-top:0}
+.pricing-plan-section{padding-top:0}
+.teams-page{background-image:linear-gradient(100deg,var(--e-global-color-dark-marron) 2%,var(--e-global-color-dark-icons-background) 14%)}
+.about-teams-section{padding:70px 0 0!important}
+.faq-page{padding-top:0;padding-bottom:0}
+.teams-page{padding:0 0 0!important}
+.clients-section-right-img1{padding:70px 0 0}
+.clients-section .clients-section-btn a{font-size:16px;line-height:28px}
+.clients-section .clients-outer-box{margin-bottom:20px}
+.clients-section .clients-section-btn{padding-top:20px}
+.clients-section p{padding:0 30px}
+.map-section{padding:70px 0 0}
+.map-section iframe{width:510px}
+.Services-Security-Option-services-page{padding:0 0 60px}
+.pricing-form-section h3{padding:0 34px}
+.form-testimonial-page{padding:60px 0 0!important}
+.clients-testimonial-page .clients-row2{padding:0 0}
+.banner-container-box-comming-soon h1{font-size:30px;line-height:35px;padding:0 28px}
+.banner-container-box-comming-soon p{padding:0 41px;margin-bottom:20px}
+.banner-container-box-comming-soon .input-field-form{width:68%!important}
+.banner-container-box-comming-soon .whyus-icon{display:none}
+.navbar-collapse{width:32%!important}
+.blog-posts{padding:60px 0 0}
+}
+@media screen and (max-width:575px){
+p{font-size:16px;line-height:24px}
+h1{font-size:26px;line-height:32px;letter-spacing:.2px;word-spacing:0}
+.about-banner-text .about-h1{font-size:26px;line-height:32px}
+.banner-img-content{left:0}
+.banner-paragraph{font-size:16px;line-height:24px;margin-bottom:18px;padding:0 10px}
+.nav-link{font-size:16px;line-height:20px}
+.inner-arrow-menu-btn{font-size:8px;width:15px;height:14px;line-height:13px!important;right:28px;top:3px;display:none}
+.btn-talk{width:auto;height:auto}
+.banner-btn a{font-size:14px}
+.banner-btn{height:50px}
+.navbar-collapse a{font-size:14px;line-height:8px}
+.dropdown-content-redlight ul li a{color:var(--e-global-color-white-banner-text);line-height:16px;padding:9px 70px 9px 30px!important;width:auto}
+.icons-section .logo-box figure img{width:80px}
+.about-us-section-start p{padding:0 15px;margin-bottom:24px}
+.about-us-section-2 .offer-section-title{margin-bottom:18px}
+.accordian-section .faq-content-img{margin-top:10px!important;text-align:center}
+.faq-content-img figure img{width:300px}
+.navbar-nav li.active>a:before{display:none}
+.navbar-nav .active>a{background:var(--e-global-color-red-active)!important;color:var(--e-global-color-white)}
+.btn-talk .active>a{background:var(--e-global-color-red-active)!important;border-radius:0}
+.clients-section{padding:0 0 0}
+.clients-section .clients-section-btn a{font-size:16px;line-height:20px;padding:12px 29px}
+.clients-section p{padding:0 12px}
+.clients-section .clients-right-content .ceo-p{font-size:14px;line-height:20px}
+.about-us-section-page p{padding:0;margin-bottom:20px}
+.about-us-section-page{padding:36px 12px 28px 12px}
+.about-us-section-page .about-us-list{margin-bottom:31px;padding-left:40px}
+.contact-us-section .about-us-list{margin-bottom:31px;padding-left:10px}
+.about-us-section-page .about-section-img figure img{width:308px}
+h2{font-size:22px;line-height:26px}
+.services-section{padding:60px 26px}
+h4{font-size:18px;line-height:27px}
+h3{font-size:24px;line-height:10px}
+.about-us-section-start .about-us-content{padding:28px 30px 34px;margin-bottom:20px;text-align:center}
+.cyber-security-section .cyber-security-provider-img{width:290px}
+h3{font-size:20px;line-height:28px}
+.cyber-security-section{padding:60px 20px 0}
+.icons-section{padding:0 19px 0 19px}
+.cards-section{padding:70px 0 60px}
+.services-clients-section{padding:60px 0}
+.about-banner-text{margin-bottom:0}
+.cyber-security-section2{padding:0 20px}
+.cyber-security-section .cyber-security-provider-img{width:290px}
+.cyber-security-section .cyber-content-img{margin-top:-45px;text-align:center;margin-bottom:45px}
+.cyber-security-section .cyber-content-img-right figure img{width:290px;margin-top:0}
+.accordian-section .accordian-inner .card-body p{font-size:14px;line-height:22px;margin:0}
+.accordian-section .accordian-inner .card-body{padding:0 20px}
+.accordian-section .accordian-text h3{margin-bottom:30px}
+.accordian-section h2{margin-bottom:24px}
+.accordian-section .accordian-inner .accordion-card .btn{font-size:16px;line-height:24px}
+.about-service-section-text{margin-bottom:15px}
+.accordian-section .accordian-inner .accordion-card .btn{padding:12px 40px 12px 15px;font-size:14px;line-height:14px;height:auto}
+.accordian-section .accordion-card .btn-link:before,.accordian-section .accordion-card .collapsed:before{font-size:16px;right:15px}
+.form-section-starts .form-section{padding:46px 13px 46px 13px}
+.form-section-starts .input-field-form{width:100%!important}
+.form-section-starts .input-group>.form-control:not(:last-child){font-size:14px;line-height:20px}
+.form-section h3{margin-bottom:15px}
+.form-section-starts{padding:0 0 0}
+.pricing-form-section h3{padding:0 21px}
+.pricing-plan-section .pricing-free-text{font-size:14px;line-height:14px}
+.about-us-section-start .about-us-content h4{margin-bottom:10px}
+.about-us-section-start .about-us-content a{font-size:14px;line-height:20px}
+.pricing-plan-section .pricing-content{font-size:14px;line-height:24px;margin-bottom:30px}
+.about-teams-section .teams-section-p{padding:0 36px;line-height:20px;margin-bottom:18px}
+.about-teams-section .teams-social-icons{margin-bottom:10px}
+.accordian-section{padding:0 0 0}
+.cards-section .card-heading-p{padding:24px 30px 0 30px;margin-bottom:10px}
+.cards-section .outer-card2{padding-left:0}
+.about-teams-section h3{margin-bottom:20px}
+.pricing-plan-section h3{margin-bottom:20px}
+.cyber-security-section .cyber-content h3{margin-bottom:18px;padding:0;font-size:20px;line-height:26px}
+.about-us-section-start h3{margin-bottom:20px}
+.form-section-starts .input-form-input{padding:0 20px 0 20px;height:64px}
+.form-section-starts .btn-form-section{right:7px;top:7px;padding:12px 20px 12px 20px}
+.blogs-section .blogs-p{font-size:14.91px;line-height:24px}
+.blogs-section .blogs-h5{font-size:16px;line-height:22px;padding:26px 30px 10px}
+.contact-us-margin{margin-right:0}
+.footer-section .footer-content1 figure img{text-align:center;margin-bottom:5px;width:38%}
+.footer-section .red-light-footer-p{font-size:14px;line-height:24px}
+.footer-section .footer-content1{text-align:center}
+.footer-section .footer-outer-margin{padding-bottom:0}
+.footer-section .social-icons{display:flex;justify-content:center;margin-bottom:30px}
+.footer-section .red-light-footer-p{margin-bottom:20px}
+.footer-section .footer-list{padding-left:76px;display:none}
+.footer-section .footer-bar .footer-bar-content{padding:10px 0;margin-top:16px}
+.footer-section .footer-bar .footer-bar-content{padding:15px 0;margin-top:10px}
+.footer-section .footer-bar-content p{font-size:12px;line-height:16px}
+.footer-section .footer-icon{display:none}
+.map-section{padding:60px 0 0}
+.map-section iframe{width:100%}
+.contact-us-section .contact-content .contact-title{font-size:18px;line-height:24px}
+.contact-us-section .contact-us-title{margin-bottom:20px;padding:0 25px 0 25px;font-size:20px;line-height:26px}
+.contact-us-section .contact-section-btn .btn{font-size:16px;line-height:16px;padding:22px 40px 22px}
+.Services-Security-Option-services-page{padding:66px 0 0}
+.clients-section .clients-outer-box .clients-sectionp2{font-size:14px;line-height:24px}
+.clients-section .clients-outer-box{padding:18px 17px 0}
+.about-us-section-page .discover-btn-banner .play-button{margin-left:0}
+.about-us-section-page .about-us-list .list-text{font-size:16px;line-height:30px}
+.form-testimonial-page{padding:0 0 0!important}
+.banner-container-box-comming-soon h1{font-size:26px;line-height:30px;padding:0 23px;letter-spacing:2px;margin-bottom:16px}
+.banner-container-box-comming-soon p{padding:0 12px;margin-bottom:0;font-size:16px;line-height:26px}
+.banner-container-box-comming-soon .input-field-form{width:92%!important}
+.banner-container-box-comming-soon .input-form-input{padding:30px 20px 30px 28px;font-size:16px;line-height:16px}
+.banner-container-box-comming-soon .btn-form-section{top:6px;padding:12px 18px 12px 18px}
+.dropdown-content-redlight ul li{margin-left:0!important;display:block}
+.navbar-collapse{width:50%!important}
+.padding-bottom{padding-bottom:0!important}
+.padding-top{padding-top:60px!important}
+.blog-posts{padding:60px 0 0}
+.footer-section .footer-bar-content p{font-size:12px;line-height:16px}
+.pricing-form-section .form-button button{padding:12px 28px}
+.about-us-section-start{padding:60px 0 60px}
+.pricing-plan-section{padding-bottom:0}
+.pricing-page{padding-bottom:60px}
+.about-teams-section{padding-bottom:0!important}
+}
