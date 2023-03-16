@@ -1,0 +1,14 @@
+script /home/kali/Desktop/uncompyle_session
+sudo -s
+git clone https://github.com/Mysterie/uncompyle2
+cd uncompyle2
+virtualenv activate
+scripts/uncompyle2 -h
+python setup.py install
+./test_pythonlib.py
+./test_pythonlib.py --test
+./test_pythonlib.py --2.2 --verify
+./test_pythonlib.py --all
+mv /home/kali/Desktop/PYTHON2.pyc /home/kali/uncompyle2
+uncompyle2 -o . PYTHON2.pyc
+cat PYTHON2.pyc_dis
