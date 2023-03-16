@@ -1,5 +1,7 @@
 # Gymnasium Modules
 
+To see this in HTML format, visit <a href="https://1337spectra.github.io/occc-ncl/">this page</a>.
+
 <table class="modules">
     <thead>
         <tr>
