@@ -1,29 +1,5 @@
 # Gymnasium Modules
 
-<style type="text/css">
-    @import url(https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap);
-    pre{display:inline-block;margin:unset}
-    .center{text-align:center}
-    .bold{font-weight:700}
-    /*.modules b{font-weight:500}*/
-    .modules{border-color:#000;border-style:solid;border-width:1px;border-collapse:collapse;border-spacing:0;font-size:.92rem;text-align:left;vertical-align:center;font-family:Assistant,sans-serif;line-height:1}
-    .modules td{border-color:#000;border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;word-break:normal;vertical-align:center}
-    .modules th{overflow:hidden;padding:10px 5px;word-break:normal;color:#fff}
-    .modules .header{background-color:#333;font-weight:700}
-    .modules .webapp{background-color:#d0cece}
-    .modules .wireless{background-color:#d9e1f2}
-    .modules .crypto{background-color:#ddebf7}
-    .modules .enumeration{background-color:#e1e1ff}
-    .modules .osint{background-color:#e2efda}
-    .modules .log{background-color:#ededed}
-    .modules .forensics{background-color:#fcc}
-    .modules .network{background-color:#fce4d6}
-    .modules .password{background-color:#fff2cc}
-    .modules .scanning{background-color:#D0ECE3}
-    .modules .easy{background-color:#c6efce;color:#006100;text-align:center;font-weight:500}
-    .modules .medium{background-color:#ffeb9c;color:#9c5700;text-align:center;font-weight:500}
-    .modules .hard{background-color:#ffc7ce;color:#9c0006;text-align:center;font-weight:500}
-</style>
 <table class="modules">
     <thead>
         <tr>
