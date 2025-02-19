@@ -7,6 +7,7 @@
 .modules td{border-color:#000;border-style:solid;border-width:1px;overflow:hidden;padding:5px 8px;word-break:normal;vertical-align:center}
 .modules th{overflow:hidden;padding:10px 5px;word-break:normal;color:#fff}
 .modules .header{background-color:var(--bs-gray-900);font-weight:700}
+.modules .linux{background-color:var(--bs-gray)}
 .modules .osint{background-color:var(--bs-blue)}
 .modules .crypto{background-color:var(--bs-yellow)}
 .modules .password{background-color:var(--bs-green);color:var(--bs-black)}
@@ -56,3 +57,6 @@
 .navbar-light .navbar-nav .nav-link{color:inherit}
 .post-item-wrap p{font-size:inherit}
 #blog .post-item .post-item-description>h2,#blog .post-item .post-item-description>h2>a,.single-post01 .post-item-description .post-meta-date,.single-post01 .post-item-description .post-meta-date a{color:var(--e-global-color-white)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;overflow:visible;clip:auto;white-space:normal}
+.cyberclub-logo{width:50px}
