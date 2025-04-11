@@ -1,0 +1,78 @@
+body,html{height:100%;margin:0;padding:0}
+body{padding-bottom:5-rem;overflow-y:auto;font-size:16px;display:flex;flex-direction:column}
+main{flex:1}
+footer{margin-top:auto}
+.form-control{display:block;width:100%;padding:.375rem .75rem;font-size:1rem;line-height:1.5;background-clip:padding-box;border:1px solid #ced4da;border-radius:.25rem;transition:all .2s linear;-webkit-animation-name:onautofillcancel;animation-name:onautofillcancel}
+textarea{width:100%;height:150px;min-height:auto;box-sizing:border-box;margin:0;font-family:inherit;resize:vertical;display:block;width:100%;font-size:1rem;font-weight:400;line-height:1.6;-webkit-appearance:none;-moz-appearance:none;appearance:none;-webkit-animation-name:onautofillcancel;animation-name:onautofillcancel}
+.mark,mark{padding:.2em;background-color:rgb(0,0,0,.35)}
+.btn-hover{padding:.5rem .75rem;min-width:100px;font-weight:400;color:#fff;cursor:pointer;margin:0;text-align:center;line-height:1.5;white-space:nowrap;border:none;background-size:300% 100%;border-radius:3px;transition:all .4s ease-in-out}
+.btn-hover:hover{background-position:100% 0;transition:all .4s ease-in-out}
+.btn-hover:focus{outline:0}
+.btn-hover.color-1{background-image:linear-gradient(to right,#25aae1,#40e495,#30dd8a,#2bb673);box-shadow:0 4px 15px 0 rgba(49,196,190,.75)}
+.btn-hover.color-2{background-image:linear-gradient(to right,#f5ce62,#e43603,#fa7199,#e85a19);box-shadow:0 4px 15px 0 rgba(229,66,10,.75)}
+.btn-hover.color-3{background-image:linear-gradient(to right,#667eea,#764ba2,#6b8dd6,#8e37d7);box-shadow:0 4px 15px 0 rgba(116,79,168,.75)}
+.btn-hover.color-4{background-image:linear-gradient(to right,#fc6076,#ff9a44,#ef9d43,#e75516);box-shadow:0 4px 15px 0 rgba(252,104,110,.75)}
+.btn-hover.color-5{background-image:linear-gradient(to right,#0ba360,#3cba92,#30dd8a,#2bb673);box-shadow:0 4px 15px 0 rgba(23,168,108,.75)}
+.btn-hover.color-6{background-image:linear-gradient(to right,#009245,#fcee21,#00a8c5,#d9e021);box-shadow:0 4px 15px 0 rgba(83,176,57,.75)}
+.btn-hover.color-7{background-image:linear-gradient(to right,#6253e1,#852d91,#a3a1ff,#f24645);box-shadow:0 4px 15px 0 rgba(126,52,161,.75)}
+.btn-hover.color-8{background-image:linear-gradient(to right,#29323c,#485563,#2b5876,#4e4376);box-shadow:0 4px 15px 0 rgba(45,54,65,.75)}
+.btn-hover.color-9{background-image:linear-gradient(to right,#25aae1,#4481eb,#04befe,#3f86ed);box-shadow:0 4px 15px 0 rgba(65,132,234,.75)}
+.btn-hover.color-10{background-image:linear-gradient(to right,#ed6ea0,#ec8c69,#f7186a,#fbb03b);box-shadow:0 4px 15px 0 rgba(236,116,149,.75)}
+.btn-hover.color-11{background-image:linear-gradient(to right,#eb3941,#f15e64,#e14e53,#e2373f);box-shadow:0 5px 15px rgba(242,97,103,.4)}
+
+a.btn-floating img{width:1.8125rem;height:1.8125rem;display:inline-block;text-align:center;color:#fff;font-weight:400;line-height:1.8125rem;vertical-align:middle!important;margin-right:auto!important;margin-left:auto!important;scale:.6}
+.card-group p{color-scheme:dark;font-family:Roboto,sans-serif;font-size:.9rem;font-weight:400;line-height:1.6;word-wrap:break-word}
+
+/* ===================================================================== */
+/* IDE Page Styling - Use <body class="ide-page"> */
+/* ===================================================================== */
+/* Labels & Fieldsets */
+.ide-page label{font:700 .75em/1.25em Verdana,sans-serif;color:#3589ae}
+.ide-page fieldset{background:var(--bs-dark);border:1px solid var(--bs-gray-dark);border-radius:3px;padding:.25em 1.5em .5em;margin-bottom:-3px;width:75vw}
+.ide-page fieldset label{float:right;display:inline-block;margin-left:-100%;margin-right:170px}
+.ide-page fieldset label+label{margin-right:0}
+.ide-page fieldset select{display:block;width:150px}
+
+/* Editor & Wrapper */
+.ide-page .wrapper{position:relative;height:90vh;width:75vw}
+.ide-page #ace-editor{font-size:.9em;font-family:"Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;position:absolute;top:0;right:0;bottom:0;left:0;border:1px solid #ddd;border-radius:3px}
+.ide-page #editor-container{margin:0 auto;position:relative;width:75vw;height:90vh}
+
+/* ===================================================================== */
+/* Metadata Page Styling - Use <body class="metadata-page"> */
+/* ===================================================================== */
+.metadata-page #app{margin:2em 0;padding:1rem 2rem;overflow:auto}
+.metadata-page canvas{display:none}
+
+/* ===================================================================== */
+/* Subnet Calculator Page Styling - Use <body class="subnet-calc-page"> */
+/* ===================================================================== */
+.subnet-calc-page output{display:block;white-space:pre-line;min-height:8rem}
+
+/* ===================================================================== */
+/* GET IP Address Page Styling - Use <body class="getip-address-page"> */
+/* ===================================================================== */
+/*.about-banner-text{}*/
+.banner-paragraph{font-weight:400;line-height:30px;word-spacing:0}
+.center{text-align:center}
+.bold{font-weight:700}
+.modules{border-color:#000;border-style:solid;border-width:1px;border-collapse:collapse;border-spacing:0;font-size:.9rem;text-align:left;color:var(--bs-white);font-family:Assistant,sans-serif;line-height:1;--bs-blue:#375a7f;--bs-purple:#6f42c1;--bs-pink:#e83e8c;--bs-red:#e74c3c;--bs-orange:#fd7e14;--bs-yellow:#f39c12;--bs-green:#66BB6A;--bs-teal:#00695C;--bs-light-blue:#3498db;--bs-cyan:#0097A7;--bs-black:#000;--bs-white:#fff;--bs-gray:#888;--bs-gray-dark:#303030;--bs-gray-100:#f8f9fa;--bs-gray-200:#ebebeb;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:var(--bs-gray);--bs-gray-700:#444;--bs-gray-800:var(--bs-gray-dark);--bs-gray-900:#222;--bs-primary:var(--bs-blue);--bs-secondary:var(--bs-gray-700);--bs-success:var(--bs-green);--bs-info:var(--bs-cyan);--bs-warning:var(--bs-yellow);--bs-danger:var(--bs-red);--bs-light:var(--bs-gray-500)}
+.modules a{font-size:.9rem;color:var(--bs-white);text-decoration:underline}
+.modules td{border-color:#000;border-style:solid;border-width:1px;overflow:hidden;padding:5px 8px;word-break:normal;vertical-align:center}
+.modules th{overflow:hidden;padding:10px 5px;word-break:normal;color:#fff}
+.modules .header{background-color:var(--bs-gray-900);font-weight:700}
+.modules .linux{background-color:var(--bs-gray)}
+.modules .osint{background-color:var(--bs-blue)}
+.modules .crypto{background-color:var(--bs-yellow)}
+.modules .password{background-color:var(--bs-green);color:var(--bs-black)}
+.modules .password a{color:var(--bs-black)}
+.modules .log{background-color:var(--bs-pink)}
+.modules .network{background-color:var(--bs-light-blue);color:var(--bs-black)}
+.modules .network a{color:var(--bs-black)}
+.modules .wireless{background-color:var(--bs-red)}
+.modules .forensics{background-color:var(--bs-purple)}
+.modules .scanning{background-color:var(--bs-teal)}
+.modules .webapp{background-color:var(--bs-orange)}
+.modules .enumeration{background-color:var(--bs-cyan);color:var(--bs-black)}
+.modules .enumeration a{color:var(--bs-black)}
+.page-meta-date{top:-4px;font-size:.75rem;margin-right:8px}

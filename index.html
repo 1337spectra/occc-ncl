@@ -1,621 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NCL | OCCC</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="assets/style.css"/>
-  <link rel="stylesheet" href="assets/mobile.css"/>
-  <link rel="stylesheet" href="assets/personal.css"/>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <!-- Basic Page Needs
+================================================== -->
+    <meta charset="utf-8" />
+    <title>NCL Utilities</title>
+    <meta name="description" content="A collection of tools designed to make simple tasks just a little bit easier." />
+    <meta name="author" content="Gabrielle Decker" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Mobile Specific Metas
+================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS
+================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mdb.dark.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <!-- HEADER-SECTION -->
-    <div class="home-header-section">
-        <header class="header">
-            <div class="main-header">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-light p-0">
-                        <a class="navbar-brand pt-0" href="https://www.occc.edu/bit/cyber-club/" target="_blank" rel="noopener noreferrer" title="OCCC Cyber Club">
-                            <img src="img/cyberclub_white.svg" alt="" class="img-fluid cyberclub-logo" />
-                        </a>
-                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                            <span class="navbar-toggler-icon"></span>
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link text-decoration-none home-margin-top" href="index.html">Home<span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item navbar-text-color">
-                                    <a class="nav-link text-decoration-none" href="https://github.com/1337spectra/occc-ncl/tree/main/CUSTOM%20SCRIPTS">Scripts</a>
-                                </li>
-                                <li class="nav-item navbar-text-color">
-                                    <a class="nav-link text-decoration-none" href="https://github.com/1337spectra/occc-ncl/tree/main/VIDEO%20WALKTHROUGHS">Videos</a>
-                                </li>
-                                <!--<li class="nav-item">
-                                    <a class="nav-link text-decoration-none" href="analysis.html">Analysis</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-decoration-none" href="exploitation.html">Exploitation</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-decoration-none" href="forensics.html">Forensics</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-decoration-none" href="enumeration.html">Enumeration</a>
-                                </li>-->
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <img src="img/logo-white-small.svg" height="35" alt="Eivrall" loading="lazy" />
+            <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">NCL Utilities</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="https://gabrielledecker.com/wa-tools.html">WA Tools</a>
+                </li>
+            </ul>
             </div>
-        </header>
-    </div>
-    <section class="blog-posts padding-top padding-bottom overflow single-post-blog overflow-hidden">
-    <div class="container">
-        <div class="row">
-        <div class="col-xl-9 col-lg-9 mx-auto">
-            <div id="blog" class="single-post01 wow slideInLeft" data-aos="fade-up">
-            <div class="post-item">
-                <div class="post-item-wrap">
-                    <div class="post-image">
-                        <img alt="" src="assets/ncl-logo.png" />
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 mb-md-0 mb-4  text-center">
-                            <div class="about-banner-text" data-aos="fade-up">
-                                <p class="text-white banner-paragraph">A collection of official NCL guides and personally compiled resources, aimed at helping Oklahoma City Community College students prepare for the National Cyber League event.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post-item-description">
-                        <h2 class="mb-0">Gymnasium Modules</h2>
-                        <div class="post-meta">
-                            <span class="post-meta-date color01">Updated: Spring 2025 </span>
-                        </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
 
-                        <table class="modules shadow mx-auto my-5">
-                        <thead>
-                            <tr>
-                                <th class="header">Module</th>
-                                <th class="header">Challenge</th>
-                                <th class="header center">Difficulty</th>
-                                <th class="header">Tools</th>
-                                <th class="header center">Guide</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="linux bold"><span>Linux</span></td>
-                                <td class="linux"><span>Basic Commands</span></td>
-                                <td class="linux"><span>Easy</span></td>
-                                <td class="linux"><a href="https://linuxjourney.com/lesson/the-shell" target="_blank" rel="noopener noreferrer">Linux Journey</a></td>
-                                <td class="linux"><a href="https://trove.cyberskyline.com/5f6865d970874da2ab2b915ba79fd4c3" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="linux bold"><span>Linux</span></td>
-                                <td class="linux"><span>File Edit</span></td>
-                                <td class="linux"><span>Easy</span></td>
-                                <td class="linux"><a href="https://linuxjourney.com/lesson/the-shell" target="_blank" rel="noopener noreferrer">Linux Journey</a>, nano, vim</td>
-                                <td class="linux"><a href="https://trove.cyberskyline.com/cb681eb17071486a9906361f91247086" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="linux bold"><span>Linux</span></td>
-                                <td class="linux"><span>Dir</span></td>
-                                <td class="linux"><span>Easy</span></td>
-                                <td class="linux"><a href="https://linuxjourney.com/lesson/the-shell" target="_blank" rel="noopener noreferrer">Linux Journey</a>, dir</td>
-                                <td class="linux"><a href="https://trove.cyberskyline.com/68a3552daa024ee6b4313703744ad77c" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="linux bold"><span>Linux</span></td>
-                                <td class="linux"><span>Strings</span></td>
-                                <td class="linux"><span>Easy</span></td>
-                                <td class="linux"><a href="https://linuxjourney.com/lesson/the-shell" target="_blank" rel="noopener noreferrer">Linux Journey</a>, strings</td>
-                                <td class="linux"><a href="https://trove.cyberskyline.com/e864b69e76f54f309385ea6dbe111c4c" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="osint bold"><span>OSINT</span></td>
-                                <td class="osint"><span>Meta</span></td>
-                                <td class="osint"><span>Easy</span></td>
-                                <td class="osint"><a href="http://metadata2go.com/" target="_blank" rel="noopener noreferrer">metadata2go</a></td>
-                                <td class="osint"><a href="https://trove.cyberskyline.com/fccca3812b1a47528f8ab55e1dd7b894" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="osint bold"><span>OSINT</span></td>
-                                <td class="osint"><span>Lookup</span></td>
-                                <td class="osint"><span>Easy</span></td>
-                                <td class="osint"><a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Google</a></td>
-                                <td class="osint"><a href="https://trove.cyberskyline.com/beb4674c3c12483bbb9423711690764d" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="osint bold"><span>OSINT</span></td>
-                                <td class="osint"><span>Threat Intel</span></td>
-                                <td class="osint"><span>Easy</span></td>
-                                <td class="osint"><a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia</a></td>
-                                <td class="osint"><a href="https://trove.cyberskyline.com/9ed371a52eed4a81a05df34587074326" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="osint bold"><span>OSINT</span></td>
-                                <td class="osint"><span>HTTP Headers</span></td>
-                                <td class="osint"><span>Easy</span></td>
-                                <td class="osint"><a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia</a></td>
-                                <td class="osint"><a href="https://trove.cyberskyline.com/0d6e926b2e5b402bacdd6b62cb48e342" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="osint bold"><span>OSINT</span></td>
-                                <td class="osint"><span>SSL</span></td>
-                                <td class="osint"><span>Medium</span></td>
-                                <td class="osint"><a href="https://online-barcode-reader.inliteresearch.com/" target="_blank" rel="noopener noreferrer">Online Barcode Reader</a></td>
-                                <td class="osint"><a href="https://trove.cyberskyline.com/8835d44ab9914ab98e25c6b2b5999abf" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="osint bold"><span>OSINT</span></td>
-                                <td class="osint"><span>Barcode</span></td>
-                                <td class="osint"><span>Medium</span></td>
-                                <td class="osint"></td>
-                                <td class="osint"><a href="https://trove.cyberskyline.com/d695b934ae954d30b237eb4e1d81a946" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="osint bold"><span>OSINT</span></td>
-                                <td class="osint"><span>WHOIS</span></td>
-                                <td class="osint"><span>Medium</span></td>
-                                <td class="osint">whois, <a href="https://lookup.icann.org/en/lookup/" target="_blank" rel="noopener noreferrer">ICANN Lookup</a></td>
-                                <td class="osint"><a href="https://trove.cyberskyline.com/a60b1f22554d4d66a9a733a787e9df50" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="osint bold"><span>OSINT</span></td>
-                                <td class="osint"><span>PGP Lookup</span></td>
-                                <td class="osint"><span>Medium</span></td>
-                                <td class="osint"><a href="http://keyserver.ubuntu.com/" target="_blank" rel="noopener noreferrer">Ubuntu</a>, <a href="http://keys.openpgp.org/" target="_blank" rel="noopener noreferrer">OpenPGP</a>, <a href="http://pgp.mit.edu/" target="_blank" rel="noopener noreferrer">MIT keyservers</a></td>
-                                <td class="osint"><a href="https://trove.cyberskyline.com/8eb49cf698d149fe969acd161020245d" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>Number Bases</span></td>
-                                <td class="crypto"><span>Easy</span></td>
-                                <td class="crypto"><a href="https://www.rapidtables.com/convert/number/hex-to-ascii.html" target="_blank" rel="noopener noreferrer">RapidTables</a>,<a href="https://cyberchef.cyberskyline.com/#recipe=From_Hex('Auto'),%20https://www.base64decode.org/,%20https://www.binaryhexconverter.com/binary-to-ascii-text-converter" target="_blank" rel="noopener noreferrer">CyberChef</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/8964d7b06a234684abffade642838140" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>Shift</span></td>
-                                <td class="crypto"><span>Easy</span></td>
-                                <td class="crypto"><a href="https://rot13.com/" target="_blank" rel="noopener noreferrer">Rot13</a>, <a href="https://cyberchef.cyberskyline.com/#recipe=ROT13(true,true,false,13)" target="_blank" rel="noopener noreferrer">CyberChef</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/645f2b9059b04943bfa2c28b02667df5" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>@bash</span></td>
-                                <td class="crypto"><span>Easy</span></td>
-                                <td class="crypto"><a href="https://rumkin.com/tools/cipher/atbash/" target="_blank" rel="noopener noreferrer">Rumkin</a>,<a href="https://cyberchef.cyberskyline.com/#recipe=Atbash_Cipher()" target="_blank" rel="noopener noreferrer">CyberChef</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/7fa9781f241c4be49bf0cca9eadc2409" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>Beep</span></td>
-                                <td class="crypto"><span>Easy</span></td>
-                                <td class="crypto"><a href="https://morsecode.world/international/translator.html" target="_blank" rel="noopener noreferrer">Morse Code Translator</a>,<a href="https://cyberchef.cyberskyline.com/#recipe=From_Morse_Code('Space','Forward%20slash')" target="_blank" rel="noopener noreferrer">CyberChef</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/346b7cdf8ae246c9b1ce41971d3e1b31" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>Fencing</span></td>
-                                <td class="crypto"><span>Medium</span></td>
-                                <td class="crypto"><a href="https://www.dcode.fr/rail-fence-cipher" target="_blank" rel="noopener noreferrer">dCode</a>,<a href="https://cyberchef.cyberskyline.com/#recipe=Rail_Fence_Cipher_Decode(3,0)" target="_blank" rel="noopener noreferrer">CyberChef</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/125ced3a43004eef8e467fbc0fbcaa03" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>French</span></td>
-                                <td class="crypto"><span>Medium</span></td>
-                                <td class="crypto"><a href="https://www.dcode.fr/rail-fence-cipher" target="_blank" rel="noopener noreferrer">dCode</a>, <a href="https://cyberchef.cyberskyline.com/#recipe=Rail_Fence_Cipher_Decode(3,0)" target="_blank" rel="noopener noreferrer">CyberChef</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/c6c704add2e84e6ea6ddad7f2d7668d1" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>Strings</span></td>
-                                <td class="crypto"><span>Easy</span></td>
-                                <td class="crypto">strings, grep</td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/733a58d8135847bbb08a4a6aacaeb96a" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>BlindHide (Deprecated)</span></td>
-                                <td class="crypto"><span>Medium</span></td>
-                                <td class="crypto"><a href="https://diit.sourceforge.net/" target="_blank" rel="noopener noreferrer">Digital Invisible Ink Toolkit</a>, file</td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/5133730a17214be3831588652a5ce777" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>BattleSteg (Deprecated)</span></td>
-                                <td class="crypto"><span>Hard</span></td>
-                                <td class="crypto"><a href="https://diit.sourceforge.net/" target="_blank" rel="noopener noreferrer">Digital Invisible Ink Toolkit</a>, <a href="http://discoveringegypt.com/egyptian-hieroglyphic-writing/hieroglyphic-typewriter/" target="_blank" rel="noopener noreferrer">Hieroglyph Converter</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/455a54f0eb444fe399c9b4966a25f1d0" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>HideSeek (Deprecated)</span></td>
-                                <td class="crypto"><span>Hard</span></td>
-                                <td class="crypto"><a href="https://diit.sourceforge.net/" target="_blank" rel="noopener noreferrer">Digital Invisible Ink Toolkit</a>, <a href="https://www.gotfuturama.com/Interactive/AlienCodec/" target="_blank" rel="noopener noreferrer">Futurama Converter</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/38ce8b2db6a24bb49615382e2a252085" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="crypto bold"><span>Cryptography</span></td>
-                                <td class="crypto"><span>RSA</span></td>
-                                <td class="crypto"><span>Hard</span></td>
-                                <td class="crypto"><a href="https://www.calculator.net/factor-calculator.html" target="_blank" rel="noopener noreferrer">Factor Calculator</a></td>
-                                <td class="crypto"><a href="https://trove.cyberskyline.com/38ce8b2db6a24bb49615382e2a252085" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="password bold"><span>Password Cracking</span></td>
-                                <td class="password"><span>Rockyou</span></td>
-                                <td class="password"><span>Easy</span></td>
-                                <td class="password">hashcat, RockYou wordlist</td>
-                                <td class="password"><a href="https://trove.cyberskyline.com/aecdcc78aa70413aae7ea09a1b4300d4" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="password bold"><span>Password Cracking</span></td>
-                                <td class="password"><span>Mask</span></td>
-                                <td class="password"><span>Medium</span></td>
-                                <td class="password">hashcat</td>
-                                <td class="password"><a href="https://trove.cyberskyline.com/d0a758e85b894a67af88b47cec3316b7" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="password bold"><span>Password Cracking</span></td>
-                                <td class="password"><span>Pokemon</span></td>
-                                <td class="password"><span>Medium</span></td>
-                                <td class="password">hashcat, <a href="http://pokemon.wikia.com/wiki/List_of_Pok%C3%A9mon" target="_blank" rel="noopener noreferrer">Pokemon wordlist</a></td>
-                                <td class="password"><a href="https://trove.cyberskyline.com/0922f61022ef487ca73cc770369360e6" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="password bold"><span>Password Cracking</span></td>
-                                <td class="password"><span>Windows</span></td>
-                                <td class="password"><span>Medium</span></td>
-                                <td class="password">ophcrack, <a href="http://ophcrack.sourceforge.net/tables.php" target="_blank" rel="noopener noreferrer">XP special wordlist</a></td>
-                                <td class="password"><a href="https://trove.cyberskyline.com/3f7c50f299f34ae896cc1d4955be2567" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="password bold"><span>Password Cracking</span></td>
-                                <td class="password"><span>Law & Order</span></td>
-                                <td class="password"><span>Hard</span></td>
-                                <td class="password">hashcat, <a href="https://en.wikipedia.org/wiki/List_of_Law_%26_Order:_Special_Victims_Unit_episodes" target="_blank" rel="noopener noreferrer">Law and Order: SVU wordlist</a></td>
-                                <td class="password"><a href="https://trove.cyberskyline.com/10cf2420aa574f5fa4fe17c37a28fb64" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="password bold"><span>Password Cracking</span></td>
-                                <td class="password"><span>Kali Linux</span></td>
-                                <td class="password"><span>Medium</span></td>
-                                <td class="password">RockYou wordlist, hashcat, john</td>
-                                <td class="password"><a href="https://trove.cyberskyline.com/b46fa58080dc4d9b803ca7c7f7c53ecd" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="password bold"><span>Password Cracking</span></td>
-                                <td class="password"><span>PDF</span></td>
-                                <td class="password"><span>Hard</span></td>
-                                <td class="password">hashcat, john, pdf2john, RockYou wordlist</td>
-                                <td class="password"><a href="https://trove.cyberskyline.com/4f6f61dc54bc47169d7838c2e82bf6d8" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="log bold"><span>Log Analysis</span></td>
-                                <td class="log"><span>SSH</span></td>
-                                <td class="log"><span>Easy</span></td>
-                                <td class="log"></td>
-                                <td class="log"><a href="https://trove.cyberskyline.com/5213e481daa544fb94001cd51096edbb" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="log bold"><span>Log Analysis</span></td>
-                                <td class="log"><span>Nginx</span></td>
-                                <td class="log"><span>Medium</span></td>
-                                <td class="log">cat, cut, sort, uniq, wc, grep</td>
-                                <td class="log"><a href="https://trove.cyberskyline.com/7884f0c64e8b46cea64332a77b5ef56e" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="log bold"><span>Log Analysis</span></td>
-                                <td class="log"><span>History</span></td>
-                                <td class="log"><span>Medium</span></td>
-                                <td class="log">sqlite3</td>
-                                <td class="log"><a href="https://trove.cyberskyline.com/038f8feecbf4489a9ee68d8c2131b49c" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="log bold"><span>Log Analysis</span></td>
-                                <td class="log"><span>Squid</span></td>
-                                <td class="log"><span>Hard</span></td>
-                                <td class="log"><a href="https://www.epochconverter.com/" target="_blank" rel="noopener noreferrer">Epoch Converter</a>, cat, awk, sort, uniq</td>
-                                <td class="log"><a href="https://trove.cyberskyline.com/b2ca66f2ed8747139b26ba3539e6b4f7" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="log bold"><span>Log Analysis</span></td>
-                                <td class="log"><span>Custom File Format</span></td>
-                                <td class="log"><span>Hard</span></td>
-                                <td class="log"><a href="https://cyberchef.io/" target="_blank" rel="noopener noreferrer">CyberChef</a>, awk</td>
-                                <td class="log"><a href="https://trove.cyberskyline.com/545a23ed71d047b19cfdcb49bfd69376" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="log bold"><span>Log Analysis</span></td>
-                                <td class="log"><span>Login</span></td>
-                                <td class="log"><span>Medium</span></td>
-                                <td class="log">cat, cut, sort, uniq, wc</td>
-                                <td class="log"><a href="https://trove.cyberskyline.com/7c704ee8ab0a4e959360a1486fb60bae" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="log bold"><span>Log Analysis</span></td>
-                                <td class="log"><span>VSFTPD</span></td>
-                                <td class="log"><span>Medium</span></td>
-                                <td class="log">cat, grep, head, tail, awk, cut, sort, uniq</td>
-                                <td class="log"><a href="https://trove.cyberskyline.com/a9aad5ab10334ac4ab37bdd04058e1ba" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="log bold"><span>Log Analysis</span></td>
-                                <td class="log"><span>Payments</span></td>
-                                <td class="log"><span>Hard</span></td>
-                                <td class="log"><a href="https://www.convertcsv.com/xml-to-csv.html" target="_blank" rel="noopener noreferrer">ConvertCSV</a>, spreadsheets</td>
-                                <td class="log"><a href="https://trove.cyberskyline.com/b936bd566ae6467098522397e191fa5e" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="network bold"><span>Network Traffic Analysis</span></td>
-                                <td class="network"><span>DNS</span></td>
-                                <td class="network"><span>Easy</span></td>
-                                <td class="network">Wireshark</td>
-                                <td class="network"><a href="https://trove.cyberskyline.com/9afdec615a5b4e0a8dd13a8cc679f6aa" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="network bold"><span>Network Traffic Analysis</span></td>
-                                <td class="network"><span>FTP Traffic</span></td>
-                                <td class="network"><span>Easy</span></td>
-                                <td class="network">Wireshark</td>
-                                <td class="network"><a href="https://trove.cyberskyline.com/da643ef1fbdf44c399de12d273d281b6" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="network bold"><span>Network Traffic Analysis</span></td>
-                                <td class="network"><span>HTTP</span></td>
-                                <td class="network"><span>Easy</span></td>
-                                <td class="network">Wireshark, <a href="http://onlinemd5.com/">Online MD5</a></td>
-                                <td class="network"><a href="https://trove.cyberskyline.com/0ba6be5f984945ce89cbe56c273b2e38" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="network bold"><span>Network Traffic Analysis</span></td>
-                                <td class="network"><span>Telnet</span></td>
-                                <td class="network"><span>Easy</span></td>
-                                <td class="network">Wireshark</td>
-                                <td class="network"><a href="https://trove.cyberskyline.com/c5378ffe4d3249219638848679fe95d6" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="network bold"><span>Network Traffic Analysis</span></td>
-                                <td class="network"><span>Pandora</span></td>
-                                <td class="network"><span>Hard</span></td>
-                                <td class="network">Wireshark</td>
-                                <td class="network"><a href="https://trove.cyberskyline.com/3c506db7881a4e48899380cc08e8c0a9" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="network bold"><span>Network Traffic Analysis</span></td>
-                                <td class="network"><span>CAN Bus</span></td>
-                                <td class="network"><span>Easy</span></td>
-                                <td class="network">Wireshark</td>
-                                <td class="network"><a href="https://trove.cyberskyline.com/41570c1e3a974808a838a9f83c2f6d4a" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="network bold"><span>Network Traffic Analysis</span></td>
-                                <td class="network"><span>Decrypt</span></td>
-                                <td class="network"><span>Easy</span></td>
-                                <td class="network">Wireshark</td>
-                                <td class="network"><a href="https://trove.cyberskyline.com/897053bf2dfc44ccae0ca796d2493e8a" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="network bold"><span>Network Traffic Analysis</span></td>
-                                <td class="network"><span>Packet Dissection</span></td>
-                                <td class="network"><span>Hard</span></td>
-                                <td class="network"><a href="https://cyberchef.io/" target="_blank" rel="noopener noreferrer">CyberChef</a></td>
-                                <td class="network"><a href="https://trove.cyberskyline.com/b0f020a3d5724b0bb71917316c132ce0" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="wireless bold"><span>Wireless Access Exploitation</span></td>
-                                <td class="wireless"><span>PCAP 1</span></td>
-                                <td class="wireless"><span>Easy</span></td>
-                                <td class="wireless">aircrack-ng, Wireshark</td>
-                                <td class="wireless"><a href="https://trove.cyberskyline.com/288b1672a3824de0b3cd6386057b348b" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="wireless bold"><span>Wireless Access Exploitation</span></td>
-                                <td class="wireless"><span>PCAP 2</span></td>
-                                <td class="wireless"><span>Medium</span></td>
-                                <td class="wireless">aircrack-ng</td>
-                                <td class="wireless"><a href="https://trove.cyberskyline.com/ca95b65b466c4d3fa3f6b9eb37338b15" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="wireless bold"><span>Wireless Access Exploitation</span></td>
-                                <td class="wireless"><span>PCAP 3</span></td>
-                                <td class="wireless"><span>Hard</span></td>
-                                <td class="wireless">aircrack-ng, Wireshark</td>
-                                <td class="wireless"><a href="https://trove.cyberskyline.com/5c795a418e19432ca84093f469c0d25e" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="forensics bold"><span>Forensics</span></td>
-                                <td class="forensics"><span>Version Control</span></td>
-                                <td class="forensics"><span>Easy</span></td>
-                                <td class="forensics">unzip, ls, git</td>
-                                <td class="forensics"><a href="https://trove.cyberskyline.com/1823d37a029f490abf5e4b45d499c3ab" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="forensics bold"><span>Forensics</span></td>
-                                <td class="forensics"><span>File Carving</span></td>
-                                <td class="forensics"><span>Medium</span></td>
-                                <td class="forensics">file, binwalk, tar</td>
-                                <td class="forensics"><a href="https://trove.cyberskyline.com/ff55c18374c84109b32b95252309185d" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="forensics bold"><span>Forensics</span></td>
-                                <td class="forensics"><span>Docter</span></td>
-                                <td class="forensics"><span>Medium</span></td>
-                                <td class="forensics">Microsoft Word / Google Drive</td>
-                                <td class="forensics"><a href="https://trove.cyberskyline.com/8c97492b13224bd88bfbfb14eb0401cc" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="forensics bold"><span>Forensics</span></td>
-                                <td class="forensics"><span>The Book</span></td>
-                                <td class="forensics"><span>Medium</span></td>
-                                <td class="forensics"><a href="https://github.com/volatilityfoundation/volatility3" target="_blank" rel="noopener noreferrer">Volatility</a>, strings, file, Python</td>
-                                <td class="forensics"><a href="https://trove.cyberskyline.com/eaa752e9e94b46a4abea43b7019d0a1b" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="forensics bold"><span>Forensics</span></td>
-                                <td class="forensics"><span>Magic Bytes</span></td>
-                                <td class="forensics"><span>Hard</span></td>
-                                <td class="forensics"><a href="https://cyberchef.io/#recipe=To_Hex('Space',0)" target="_blank" rel="noopener noreferrer">CyberChef</a>, strings, <a href="http://hexed.it/" target="_blank" rel="noopener noreferrer">HexEd.it</a></td>
-                                <td class="forensics"><a href="https://trove.cyberskyline.com/fcef21cfbe47480b8eacc9f532e26803" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="forensics bold"><span>Forensics</span></td>
-                                <td class="forensics"><span>PDF</span></td>
-                                <td class="forensics"><span>Easy</span></td>
-                                <td class="forensics"><a href="https://www.metadata2go.com/view-metadata" target="_blank" rel="noopener noreferrer">metadata2go</a></td>
-                                <td class="forensics"><a href="https://trove.cyberskyline.com/1bbd0e56afbb46c69ea612129a93fae2" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="scanning bold"><span>Scanning & Reconnaissance</span></td>
-                                <td class="scanning"><span>nmap</span></td>
-                                <td class="scanning"><span>Easy</span></td>
-                                <td class="scanning">nmap</td>
-                                <td class="scanning"><a href="https://trove.cyberskyline.com/a92ccb5089604e069f30e7436394efb3" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="scanning bold"><span>Scanning & Reconnaissance</span></td>
-                                <td class="scanning"><span>Git</span></td>
-                                <td class="scanning"><span>Easy</span></td>
-                                <td class="scanning">git, cat, ls</td>
-                                <td class="scanning"><a href="https://trove.cyberskyline.com/af24b32b47d24779874208904df5128d" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="scanning bold"><span>Scanning & Reconnaissance</span></td>
-                                <td class="scanning"><span>Net Track</span></td>
-                                <td class="scanning"><span>Medium</span></td>
-                                <td class="scanning">nmap, nc, list, get</td>
-                                <td class="scanning"><a href="https://trove.cyberskyline.com/d09ab76145a04a288729a0b87013b6c7" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="scanning bold"><span>Scanning & Reconnaissance</span></td>
-                                <td class="scanning"><span>Metadata</span></td>
-                                <td class="scanning"><span>Medium</span></td>
-                                <td class="scanning"><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html" target="_blank" rel="noopener noreferrer">EC2 Instance Metadata</a>, curl</td>
-                                <td class="scanning"><a href="https://trove.cyberskyline.com/cb7a68906cbf4ffdaacbcfbcf54c2164" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="scanning bold"><span>Scanning & Reconnaissance</span></td>
-                                <td class="scanning"><span>Hidden Files</span></td>
-                                <td class="scanning"><span>Medium</span></td>
-                                <td class="scanning">Dirbuster, directory-list-2.3-Medium.txt wordlist</td>
-                                <td class="scanning"><a href="https://trove.cyberskyline.com/a21499fe430a4441aac2b1033a328801" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="webapp bold"><span>Web Application Exploitation</span></td>
-                                <td class="webapp"><span>egov</span></td>
-                                <td class="webapp"><span>Easy</span></td>
-                                <td class="webapp">Chrome Developer Tools</td>
-                                <td class="webapp"><a href="https://trove.cyberskyline.com/5d8c2d17ae764fbfaec7ed100dd27cf0" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="webapp bold"><span>Web Application Exploitation</span></td>
-                                <td class="webapp"><span>Metro Lottery</span></td>
-                                <td class="webapp"><span>Medium</span></td>
-                                <td class="webapp">Chrome Developer Tools</td>
-                                <td class="webapp"><a href="https://trove.cyberskyline.com/09d1f6e7653b460a830d7df6f7da891e" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="webapp bold"><span>Web Application Exploitation</span></td>
-                                <td class="webapp"><span>Metro Clinic</span></td>
-                                <td class="webapp"><span>Hard</span></td>
-                                <td class="webapp">SQL Injection</td>
-                                <td class="webapp"><a href="https://trove.cyberskyline.com/bfe58f5fd2a84e2188bc54a2fe1ec0fb" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="enumeration bold"><span>Enumeration & Exploitation</span></td>
-                                <td class="enumeration"><span>Python 1</span></td>
-                                <td class="enumeration"><span>Easy</span></td>
-                                <td class="enumeration"></td>
-                                <td class="enumeration"><a href="https://trove.cyberskyline.com/1e888d07865649f18134ed9393a26f98" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="enumeration bold"><span>Enumeration & Exploitation</span></td>
-                                <td class="enumeration"><span>Python 2</span></td>
-                                <td class="enumeration"><span>Easy</span></td>
-                                <td class="enumeration"><a href="https://github.com/Mysterie/uncompyle2" target="_blank" rel="noopener noreferrer">uncompyle</a></td>
-                                <td class="enumeration"><a href="https://trove.cyberskyline.com/7052375377a14cef89b922604799d4db" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="enumeration bold"><span>Enumeration & Exploitation</span></td>
-                                <td class="enumeration"><span>Python 3</span></td>
-                                <td class="enumeration"><span>Medium</span></td>
-                                <td class="enumeration"><a href="https://github.com/Mysterie/uncompyle2" target="_blank" rel="noopener noreferrer">uncompyle</a></td>
-                                <td class="enumeration"><a href="https://trove.cyberskyline.com/83f8a7862dba4aa08bc4892ba175930a" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="enumeration bold"><span>Enumeration & Exploitation</span></td>
-                                <td class="enumeration"><span>Binary 1</span></td>
-                                <td class="enumeration"><span>Medium</span></td>
-                                <td class="enumeration">Ghidra</td>
-                                <td class="enumeration"><a href="https://trove.cyberskyline.com/88baf3c7bf68469db6dd074d3d302825" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="enumeration bold"><span>Enumeration & Exploitation</span></td>
-                                <td class="enumeration"><span>Binary 2</span></td>
-                                <td class="enumeration"><span>Hard</span></td>
-                                <td class="enumeration">gdb</td>
-                                <td class="enumeration"><a href="https://trove.cyberskyline.com/265341a9cbf2476c96a12a4b797a5dd7" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="enumeration bold"><span>Enumeration & Exploitation</span></td>
-                                <td class="enumeration"><span>Timebomb</span></td>
-                                <td class="enumeration"><span>Hard</span></td>
-                                <td class="enumeration"><a href="https://java-decompiler.github.io/" target="_blank" rel="noopener noreferrer">JD-GUI</a>, <a href="http://www.javadecompilers.com/" target="_blank" rel="noopener noreferrer">Java Decompilers</a>, <a href="http://currentmillis.com/" target="_blank" rel="noopener noreferrer">Current Millis</a></td>
-                                <td class="enumeration"><a href="https://trove.cyberskyline.com/e2cf3c5af4b7454ebff2031fe422bc94" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                            <tr>
-                                <td class="enumeration bold"><span>Enumeration & Exploitation</span></td>
-                                <td class="enumeration"><span>Bytes</span></td>
-                                <td class="enumeration"><span>Hard</span></td>
-                                <td class="enumeration"></td>
-                                <td class="enumeration"><a href="https://trove.cyberskyline.com/4e4cfc4aef064895b4a488be681424d2" target="_blank" rel="noopener noreferrer">NCL Guide</a></td>
-                            </tr>
-                        </tbody>
-                        </table>
-                    </div>
-                <!--post-item-wrap-->
-                </div>
-                <!--post-item-->
-            </div>
-            <!--single-post01-->
-            </div>
-            <!--col-->
+    <main>
+        <!-- Jumbotron -->
+        <div class="pt-5 pb-2 text-center">
+            <h1 class="mb-3">NCL Utilities</h1>
+            <p class="figcaption">by Gabrielle Decker</p>
         </div>
-        <!--row-->
-        </div>
-    </div>
-    <!--container-->
-    </section>
-    <!-- Footer-Section -->
-    <div class="footer-section">
-    <div class="footer-bar text-center">
+        <!-- Jumbotron -->
+
+        <!-- Card Deck -->
         <div class="container">
-            <div class="row">
-                <div class="footer-bar-content w-100">
-                    <p class="text-size-16 mb-0">
-                        Content Copyright ©2025 CyberSkyline. All Rights Reserved
-                    </p>
+            <div class="card-group mx-auto mb-5">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1526374870839-e155464bb9b2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNDU1Njh8&ixlib=rb-4.0.3&q=85" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Encode/Decode</h5>
+                        <p class="card-text">Convert data between hexadecimal, base64, and binary or decode common ciphers such as  such as ROT13 or Caesar.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><a class="btn btn-hover color-1 btn-sm btn-block ripple-surface" style="background-color: rgb(198, 17, 24)" href="decoder.html" role="button">USE <i class="fa-solid fa-right-long"></i></a></small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNDU1MzF8&ixlib=rb-4.0.3&q=85" class="card-img-top" alt="Palm Springs Road"/>
+                    <div class="card-body">
+                        <h5 class="card-title text-muted">Code IDE</h5>
+                        <p class="card-text text-muted">Use a web-based code editor and IDE to learn, build, run, or test your program. You can open the code from your local and continue to build using this IDE.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><a class="btn btn-hover color-2 disabled btn-lg btn-block" style="background-color: rgb(255, 69, 0)" href="" role="button">USE <i class="fa-solid fa-right-long"></i></a></small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1592609931095-54a2168ae893?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNDU1NTZ8&ixlib=rb-4.0.3&q=85" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Metadata Extractor</h5>
+                        <p class="card-text">Extract key fields (e.g., Create Date, Image Size, Camera Make/Model, Exposure Time, GPS coordinates) from image files.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><a class="btn btn-hover color-3 btn-lg btn-block ripple-surface" style="background-color: rgb(255, 172, 68)" href="metadata.html" role="button">USE <i class="fa-solid fa-right-long"></i></a></small>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group mx-auto mb-5">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1555952494-efd681c7e3f9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNDY5OTN8&ixlib=rb-4.0.3&q=85" class="card-img-top" alt=""/>
+                    <div class="card-body">
+                        <h5 class="card-title">Subnet Calculator</h5>
+                        <p class="card-text">Convert data between hexadecimal, base64, and binary, or decode common ciphers such as  such as ROT13 or Caesar.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><a class="btn btn-hover color-10 btn-lg btn-block ripple-surface" style="background-color: rgb(37, 211, 102)" href="subnet-calc.html" role="button">USE <i class="fa-solid fa-right-long"></i></a></small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNDU1Njh8&ixlib=rb-4.0.3&q=85" class="card-img-top" alt=""/>
+                    <div class="card-body">
+                        <h5 class="card-title">Scripts</h5>
+                        <p class="card-text">A collection of some useful scripts.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><a class="btn btn-hover color-7 btn-lg btn-block ripple-surface" style="background-color: rgb(0, 130, 202)" href="scripts.html" role="button">USE <i class="fa-solid fa-right-long"></i></a></small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1592609930961-219235eded71?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNDY5OTN8&ixlib=rb-4.0.3&q=85" class="card-img-top" alt=""/>
+                    <div class="card-body">
+                        <h5 class="card-title">NCL Gymnasium Reference</h5>
+                        <p class="card-text">Extract key fields (e.g., Create Date, Image Size, Camera Make/Model, Exposure Time, GPS coordinates) from image files.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><a class="btn btn-hover color-6 btn-lg btn-block ripple-surface" style="background-color: rgb(172, 43, 172)" href="gymnasium.html" role="button">USE <i class="fa-solid fa-right-long"></i></a></small>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+        <!-- Card Deck -->
+    </main>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="assets/text-animations.js"></script>
+    <!-- Footer -->
+    <footer class="bg-dark mt-auto text-center text-white text-small">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-1">
+                <!-- Website -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ee6817" href="https://gabrielledecker.com/" role="button"><i class="fas fa-solid fa-globe"></i></i></a>
 
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0a66c2" href="https://www.linkedin.com/in/gabrielle-decker" role="button"><i class="fab fa-brands fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #800080" href="https://github.com/1337spectra" role="button"><i class="fab fa-brands fa-github"></i></a>
+
+                <!-- World Anvil -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #9f0e11" href="https://www.worldanvil.com" role="button">
+                    <img alt="" src="img/WA_Logo.svg">
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <small><p class="small">&copy; 2025 Copyright <a class="text-white" href="https://www.gabrielledecker.com">Gabrielle Decker</a>.</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/vendor/mdb.min.js"></script>
 </body>
-
 </html>

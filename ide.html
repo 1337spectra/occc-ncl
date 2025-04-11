@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Page Needs
+================================================== -->
+    <meta charset="utf-8" />
+    <title>NCL Utilities</title>
+    <meta name="description" content="A collection of tools designed to make simple tasks just a little bit easier." />
+    <meta name="author" content="Gabrielle Decker" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Mobile Specific Metas
+================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS
+================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mdb.dark.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="ide-page">
+    <!--Main Navigation-->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <img src="img/logo-white-small.svg" height="35" alt="Eivrall" loading="lazy" />
+                <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">NCL Utilities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="https://gabrielledecker.com/wa-tools.html">WA Tools</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Heading -->
+        <div class="p-5 bg-body-tertiary mb-4">
+            <h1 class="">Coding IDE</h1>
+            <!-- Breadcrumb -->
+            <nav class="d-flex">
+                <h6 class="my-0">
+                    <a class="btn btn-link px-3" role="button" onclick="window.history.back();" data-mdb-ripple-init data-mdb-ripple-color="dark">
+                        <i class="fas fa-solid fa-left-long me-md-2"></i> <span class="d-none d-md-inline-block">Back</span>
+                    </a>
+                </h6>
+            </nav>
+            <!-- Breadcrumb -->
+        </div>
+        <!-- Heading -->
+    </header>
+    <!--Main Navigation-->
+
+    <main>
+        <!-- Content -->
+        <div class="container my-5">
+            <!-- Section: Components -->
+            <div class="pass-wrap">
+                <p class="text-center">{{PLACEHOLDER TEXT}}</p>
+
+                <fieldset class="mb-3">
+                <label class="form-label">
+                    Theme:
+                    <select id="ace-theme" class="form-select">
+                    <optgroup label="bright">
+                        <option value="chrome">chrome</option>
+                        <option value="clouds">clouds</option>
+                        <option value="crimson_editor">crimson_editor</option>
+                        <option value="dawn">dawn</option>
+                        <option value="dreamweaver">dreamweaver</option>
+                        <option value="eclipse">eclipse</option>
+                        <option value="github">github</option>
+                        <option value="solarized_light">solarized_light</option>
+                        <option value="textmate">textmate</option>
+                        <option value="tomorrow">tomorrow</option>
+                        <option value="xcode">xcode</option>
+                    </optgroup>
+            
+                    <optgroup label="dark">
+                        <option value="clouds_midnight">clouds_midnight</option>
+                        <option value="cobalt">cobalt</option>
+                        <option value="idle_fingers">idle_fingers</option>
+                        <option value="kr_theme">kr_theme</option>
+                        <option value="merbivore">merbivore</option>
+                        <option value="merbivore_soft">merbivore_soft</option>
+                        <option value="mono_industrial">mono_industrial</option>
+                        <option value="monokai" selected>monokai</option>
+                        <option value="pastel_on_dark">pastel_on_dark</option>
+                        <option value="solarized_dark">solarized_dark</option>
+                        <option value="terminal">terminal</option>
+                        <option value="tomorrow_night">tomorrow_night</option>
+                        <option value="tomorrow_night_blue">tomorrow_night_blue</option>
+                        <option value="tomorrow_night_bright">tomorrow_night_bright</option>
+                        <option value="tomorrow_night_eighties">tomorrow_night_eighties</option>
+                        <option value="twilight">twilight</option>
+                        <option value="vibrant_ink">vibrant_ink</option>
+                    </optgroup>
+                    </select>
+                </label>
+
+                <label class="form-label">
+                    Mode:
+                    <select id="ace-mode" class="form-select">
+                    <option value="ABAP">ABAP</option>
+                    <option value="ActionScript">ActionScript</option>
+                    <option value="ADA">ADA</option>
+                    <option value="Apache Conf">Apache Conf</option>
+                    <option value="AsciiDoc">AsciiDoc</option>
+                    <option value="Assembly x86" selected>Assembly x86</option>
+                    <option value="AutoHotKey">AutoHotKey</option>
+                    <option value="BatchFile">BatchFile</option>
+                    <option value="C/C++">C/C++</option>
+                    <option value="C#">C#</option>
+                    <option value="C9 Search Results">C9 Search Results</option>
+                    <option value="Cirru">Cirru</option>
+                    <option value="Clojure">Clojure</option>
+                    <option value="Cobol">Cobol</option>
+                    <option value="CoffeeScript">CoffeeScript</option>
+                    <option value="ColdFusion">ColdFusion</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Curly">Curly</option>
+                    <option value="D">D</option>
+                    <option value="Dart">Dart</option>
+                    <option value="Diff">Diff</option>
+                    <option value="Dockerfile">Dockerfile</option>
+                    <option value="Dot">Dot</option>
+                    <option value="EJS">EJS</option>
+                    <option value="Erlang">Erlang</option>
+                    <option value="Forth">Forth</option>
+                    <option value="FreeMarker">FreeMarker</option>
+                    <option value="Gherkin">Gherkin</option>
+                    <option value="Gitignore">Gitignore</option>
+                    <option value="Glsl">Glsl</option>
+                    <option value="Go">Go</option>
+                    <option value="Groovy">Groovy</option>
+                    <option value="HAML">HAML</option>
+                    <option value="Handlebars">Handlebars</option>
+                    <option value="Haskell">Haskell</option>
+                    <option value="haXe">haXe</option>
+                    <option value="HTML">HTML</option>
+                    <option value="HTML (Ruby)">HTML (Ruby)</option>
+                    <option value="INI">INI</option>
+                    <option value="Jack">Jack</option>
+                    <option value="Jade">Jade</option>
+                    <option value="Java">Java</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="JSON">JSON</option>
+                    <option value="JSONiq">JSONiq</option>
+                    <option value="JSP">JSP</option>
+                    <option value="JSX">JSX</option>
+                    <option value="Julia">Julia</option>
+                    <option value="LaTeX">LaTeX</option>
+                    <option value="LESS">LESS</option>
+                    <option value="Liquid">Liquid</option>
+                    <option value="Lisp">Lisp</option>
+                    <option value="LiveScript">LiveScript</option>
+                    <option value="LogiQL">LogiQL</option>
+                    <option value="LSL">LSL</option>
+                    <option value="Lua">Lua</option>
+                    <option value="LuaPage">LuaPage</option>
+                    <option value="Lucene">Lucene</option>
+                    <option value="Makefile">Makefile</option>
+                    <option value="Markdown">Markdown</option>
+                    <option value="MATLAB">MATLAB</option>
+                    <option value="MEL">MEL</option>
+                    <option value="MUSHCode">MUSHCode</option>
+                    <option value="MySQL">MySQL</option>
+                    <option value="Nix">Nix</option>
+                    <option value="Objective-C">Objective-C</option>
+                    <option value="OCaml">OCaml</option>
+                    <option value="Pascal">Pascal</option>
+                    <option value="Perl">Perl</option>
+                    <option value="pgSQL">pgSQL</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Plain Text">Plain Text</option>
+                    <option value="Powershell">Powershell</option>
+                    <option value="Prolog">Prolog</option>
+                    <option value="Properties">Properties</option>
+                    <option value="Protobuf">Protobuf</option>
+                    <option value="Python">Python</option>
+                    <option value="R">R</option>
+                    <option value="RDoc">RDoc</option>
+                    <option value="RHTML">RHTML</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Rust">Rust</option>
+                    <option value="SASS">SASS</option>
+                    <option value="SCAD">SCAD</option>
+                    <option value="Scala">Scala</option>
+                    <option value="Scheme">Scheme</option>
+                    <option value="SCSS">SCSS</option>
+                    <option value="SH">SH</option>
+                    <option value="SJS">SJS</option>
+                    <option value="Smarty">Smarty</option>
+                    <option value="snippets">snippets</option>
+                    <option value="Soy Template">Soy Template</option>
+                    <option value="Space">Space</option>
+                    <option value="SQL">SQL</option>
+                    <option value="Stylus">Stylus</option>
+                    <option value="SVG">SVG</option>
+                    <option value="Tcl">Tcl</option>
+                    <option value="Tex">Tex</option>
+                    <option value="Text">Text</option>
+                    <option value="Textile">Textile</option>
+                    <option value="Toml">Toml</option>
+                    <option value="Twig">Twig</option>
+                    <option value="Typescript">Typescript</option>
+                    <option value="Vala">Vala</option>
+                    <option value="VBScript">VBScript</option>
+                    <option value="Velocity">Velocity</option>
+                    <option value="Verilog">Verilog</option>
+                    <option value="XML">XML</option>
+                    <option value="XQuery">XQuery</option>
+                    <option value="YAML">YAML</option>
+                    </select>
+                </label>
+                </fieldset>
+
+                <div class="wrapper">
+                    <div id="ace-editor" class="border p-3">
+    section     .text
+
+    extern printf
+    global      _start                             ; Entry point for the program
+
+    _start:                                        ; Start of the program
+    mov     edx, len                           ; Calculate message length
+    mov     ecx, msg                           ; Load address of message
+    mov     ebx, 1                             ; File descriptor (stdout)
+    mov     eax, 4                             ; System call number (sys_write)
+    int     0x80                               ; Call kernel to display message
+
+    mov     eax, 1                             ; System call number (sys_exit)
+    int     0x80                               ; Call kernel to exit program
+
+    section     .data
+
+    msg     db  'Hello World!', 10                 ; Our message with a newline
+    len     equ $ - msg                            ; Calculate length of message
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white text-small">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-1">
+                <!-- Website -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ee6817" href="https://gabrielledecker.com/" role="button"><i class="fas fa-solid fa-globe"></i></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0a66c2" href="https://www.linkedin.com/in/gabrielle-decker" role="button"><i class="fab fa-brands fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #800080" href="https://github.com/1337spectra" role="button"><i class="fab fa-brands fa-github"></i></a>
+
+                <!-- World Anvil -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #9f0e11" href="https://www.worldanvil.com" role="button">
+                    <img alt="" src="img/WA_Logo.svg">
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <small><p class="small">&copy; 2025 Copyright <a class="text-white" href="https://www.gabrielledecker.com">Gabrielle Decker</a>.</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/vendor/mdb.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js'></script>
+    <script src="js/ide.js"></script>
+</body>
+</html>

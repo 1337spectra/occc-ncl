@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Page Needs
+================================================== -->
+    <meta charset="utf-8" />
+    <title>NCL Utilities</title>
+    <meta name="description" content="A collection of tools designed to make simple tasks just a little bit easier." />
+    <meta name="author" content="Gabrielle Decker" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Mobile Specific Metas
+================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS
+================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mdb.dark.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="decoder-page">
+    <!--Main Navigation-->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <img src="img/logo-white-small.svg" height="35" alt="Eivrall" loading="lazy" />
+                <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">NCL Utilities</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="https://gabrielledecker.com/wa-tools.html">WA Tools</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Heading -->
+        <div class="p-5 bg-body-tertiary mb-4">
+            <h1 class="">Encode/Decode</h1>
+            <!-- Breadcrumb -->
+            <nav class="d-flex">
+                <h6 class="my-0">
+                    <a class="btn btn-link px-3" role="button" onclick="window.history.back();" data-mdb-ripple-init data-mdb-ripple-color="dark">
+                        <i class="fas fa-solid fa-left-long me-md-2"></i> <span class="d-none d-md-inline-block">Back</span>
+                    </a>
+                </h6>
+            </nav>
+            <!-- Breadcrumb -->
+        </div>
+        <!-- Heading -->
+    </header>
+    <!--Main Navigation-->
+
+    <main>
+        <!-- Content -->
+        <div class="container my-5">
+            <!-- Section: Encode/Decode Tools -->
+            <div class="pass-wrap">
+                <p class="text-center">Effortlessly switch between encodings. Enter your text to instantly encode or decode formats like Hex, Base64, URL, ROT13, Caesar, and Morse Code.</p>
+                <br />
+                <p class="text-center mark">Enter your ciphertext in the box below to decode it.</p>
+
+                <!-- Hexadecimal Block -->
+                <div class="row my-4">
+                    <div class="col-12 fw-bold h4 mb-3">Hexadecimal</div>
+                    <!-- Encode / Decode side by side -->
+                    <div class="row">
+                        <!-- Encode -->
+                        <div class="col-md-6 mb-5">
+                            <label for="hexEncodeIn" class="fw-bold">Encode</label>
+                            <textarea id="hexEncodeIn" rows="5" class="form-control" oninput="onHexEncode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="hexEncodeOut" rows="5"></textarea>
+                                <label class="form-label" for="hexEncodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Decode -->
+                        <div class="col-md-6 mb-5">
+                            <label for="hexDecodeIn" class="fw-bold">Decode</label>
+                            <textarea id="hexDecodeIn" rows="5" class="form-control" oninput="onHexDecode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="hexEncodeOut" rows="5"></textarea>
+                                <label class="form-label" for="hexEncodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Base64 Block -->
+                <div class="row my-4">
+                    <div class="col-12 fw-bold h4 mb-3">
+                        Base64
+                        <span class="mx-2 small">
+                        <em>
+                            <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
+                            Used to transmit data using only displayable characters.
+                        </em>
+                        </span>
+                    </div>
+                    <div class="row">
+                        <!-- Encode -->
+                        <div class="col-md-6 mb-5">
+                            <label for="base64EncodeIn" class="fw-bold">Encode</label>
+                            <textarea id="base64EncodeIn" rows="5" class="form-control" oninput="onBase64Encode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                            <textarea class="form-control" readonly id="base64EncodeOut" rows="5"></textarea>
+                            <label class="form-label" for="base64EncodeOut" style="margin-left: 0px">Output</label>
+                            <div class="form-notch">
+                                <div class="form-notch-leading" style="width: 9px"></div>
+                                <div class="form-notch-middle" style="width: 60px"></div>
+                                <div class="form-notch-trailing"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Decode -->
+                        <div class="col-md-6 mb-5">
+                            <label for="base64DecodeIn" class="fw-bold">Decode</label>
+                            <textarea id="base64DecodeIn" rows="5" class="form-control" oninput="onBase64Decode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="base64DecodeOut" rows="5"></textarea>
+                                <label class="form-label" for="base64DecodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- URL/Percent Block -->
+                <div class="row my-4">
+                    <div class="col-12 fw-bold h4 mb-3">
+                        URL/Percent
+                        <span class="mx-2 small">
+                        <em>
+                            <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
+                            Used to transmit special characters in URLs.
+                        </em>
+                        </span>
+                    </div>
+                    <div class="row">
+                        <!-- Encode -->
+                        <div class="col-md-6 mb-5">
+                            <label for="UrlEncodeIn" class="fw-bold">Encode</label>
+                            <textarea id="UrlEncodeIn" rows="5" class="form-control" oninput="onUrlEncode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="UrlEncodeOut" rows="5"></textarea>
+                                <label class="form-label" for="UrlEncodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Decode -->
+                        <div class="col-md-6 mb-5">
+                            <label for="UrlDecodeIn" class="fw-bold">Decode</label>
+                            <textarea id="UrlDecodeIn" rows="5" class="form-control" oninput="onUrlDecode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="UrlDecodeOut" rows="5"></textarea>
+                                <label class="form-label" for="UrlDecodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROT13 Block -->
+                <div class="row my-4">
+                    <div class="col-12 fw-bold h4 mb-3">ROT13</div>
+                    <div class="row">
+                        <!-- Encode -->
+                        <div class="col-md-6 mb-5">
+                            <label for="Rot13EncodeIn" class="fw-bold">Encode</label>
+                            <textarea id="Rot13EncodeIn" rows="5" class="form-control" oninput="onRot13Encode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="Rot13EncodeOut" rows="5"></textarea>
+                                <label class="form-label" for="Rot13EncodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Decode -->
+                        <div class="col-md-6 mb-5">
+                            <label for="Rot13DecodeIn" class="fw-bold">Decode</label>
+                            <textarea id="Rot13DecodeIn" rows="5" class="form-control" oninput="onRot13Decode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="Rot13DecodeOut" rows="5"></textarea>
+                                <label class="form-label" for="Rot13DecodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Caesar Block -->
+                <div class="row my-4">
+                    <div class="col-12 fw-bold h4 mb-3">Caesar</div>
+                    <div class="row">
+                        <div class="col-md-3 mb-5">
+                            <label for="CaesarShift" class="fw-bold">Shift</label>
+                            <textarea id="CaesarShift" rows="1" class="form-control mb-3" oninput="onCaesarEncode(); onCaesarDecode();"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <label for="CaesarEncodeIn" class="fw-bold">Encode</label>
+                            <textarea id="CaesarEncodeIn" rows="5" class="form-control" oninput="onCaesarEncode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="CaesarEncodeOut" rows="5"></textarea>
+                                <label class="form-label" for="CaesarEncodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Decode on the right -->
+                        <div class="col-md-6 mb-5">
+                            <label for="CaesarDecodeIn" class="fw-bold">Decode</label>
+                            <textarea id="CaesarDecodeIn" rows="5" class="form-control" oninput="onCaesarDecode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="CaesarDecodeOut" rows="5"></textarea>
+                                <label class="form-label" for="CaesarDecodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Morse Code Block -->
+                <div class="row my-4">
+                    <div class="col-12 fw-bold h4 mb-3">Morse Code</div>
+                    <div class="row">
+                        <!-- Encode -->
+                        <div class="col-md-6 mb-3">
+                            <label for="MorseEncodeIn" class="fw-bold">Encode</label>
+                            <textarea id="MorseEncodeIn" rows="5" class="form-control" oninput="onMorseEncode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="MorseEncodeOut" rows="5"></textarea>
+                                <label class="form-label" for="MorseEncodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                            <p class="small mt-3">
+                                <em>
+                                <i class="fa-solid fa-triangle-exclamation text-warning"></i>
+                                Be careful, capital letters are lost during encoding.
+                                </em>
+                            </p>
+                        </div>
+                        <!-- Decode -->
+                        <div class="col-md-6 mb-3">
+                            <label for="MorseDecodeIn" class="fw-bold">Decode</label>
+                            <textarea id="MorseDecodeIn" rows="5" class="form-control" oninput="onMorseDecode()"></textarea>
+                            <div class="form-outline mt-2 mb-4">
+                                <textarea class="form-control" readonly id="MorseDecodeOut" rows="5"></textarea>
+                                <label class="form-label" for="MorseDecodeOut" style="margin-left: 0px">Output</label>
+                                <div class="form-notch">
+                                    <div class="form-notch-leading" style="width: 9px"></div>
+                                    <div class="form-notch-middle" style="width: 60px"></div>
+                                    <div class="form-notch-trailing"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content -->
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white text-small">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-1">
+                <!-- Website -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ee6817" href="https://gabrielledecker.com/" role="button"><i class="fas fa-solid fa-globe"></i></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0a66c2" href="https://www.linkedin.com/in/gabrielle-decker" role="button"><i class="fab fa-brands fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #800080" href="https://github.com/1337spectra" role="button"><i class="fab fa-brands fa-github"></i></a>
+
+                <!-- World Anvil -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #9f0e11" href="https://www.worldanvil.com" role="button">
+                    <img alt="" src="img/WA_Logo.svg">
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <small><p class="small">&copy; 2025 Copyright <a class="text-white" href="https://www.gabrielledecker.com">Gabrielle Decker</a>.</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/vendor/mdb.min.js"></script>
+    <script src="js/decoder.js"></script>
+</body>
+</html>
